@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>not related to 18F.gov</title>
+  </head>
+  <body>
+    <div
+      style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 5; display: flex; justify-content: center; align-items: center;"
+    >
+      <div
+        id="giraffe_fact"
+        style="font-family: sans-serif; font-size: 48px; font-weight: bold; text-align: center; padding: 0 30px;"
+      ></div>
+    </div>
+    <script type="text/javascript">
+      let getEmoji = emojiArray => {
+        getEmoji = () =>
+          emojiArray[Math.floor(Math.random() * emojiArray.length)];
+      };
+
+      const oneOrTheOther = () => !!Math.round(Math.random());
+
+      const addDomNode = () => {
+        const { innerHeight, innerWidth } = window;
+        let left = 0;
+        let top = 0;
+        let direction = 0;
+
+        if (oneOrTheOther()) {
+          left = Math.round(Math.random() * innerWidth);
+
+          if (oneOrTheOther()) {
+            top = -32;
+            if (left > innerWidth / 2) {
+              direction = 90 + Math.random() * 90;
+            } else {
+              direction = Math.random() * 90;
+            }
+          } else {
+            top = innerHeight;
+            if (left > innerWidth / 2) {
+              direction = 180 + Math.random() * 90;
+            } else {
+              direction = 270 + Math.random() * 90;
+            }
+          }
+        } else {
+          top = Math.round(Math.random() * innerHeight);
+
+          if (oneOrTheOther()) {
+            left = -32;
+            if (top > innerWidth / 2) {
+              direction = 270 + Math.random() * 90;
+            } else {
+              direction = Math.random() * 90;
+            }
+          } else {
+            left = innerWidth;
+            if (top > innerWidth / 2) {
+              direction = 90 + Math.random() * 90;
+            } else {
+              direction = 270 + Math.random() * 90;
+            }
+          }
+        }
+
+        const domEmoji = document.createElement('div');
+        domEmoji.setAttribute('data-emoji', null);
+        domEmoji.setAttribute('data-direction', direction);
+        domEmoji.setAttribute('data-speed', 2 + Math.floor(Math.random() * 9));
+        domEmoji.setAttribute(
+          'style',
+          `position: fixed; top: ${top}px; left: ${left}px; width: 32px; height: 32px; background: url(${getEmoji()}); background-size: contain; background-position: center center; background-repeat: no-repeat;`
+        );
+        document.body.appendChild(domEmoji);
+      };
+
+      const moveEmoji = () => {
+        const { innerHeight, innerWidth } = window;
+
+        Array.from(document.querySelectorAll('div[data-emoji]')).forEach(
+          domEmoji => {
+            const { left, top } = domEmoji.getBoundingClientRect();
+            if (
+              left < -32 ||
+              left > innerWidth ||
+              top < -32 ||
+              top > innerHeight
+            ) {
+              domEmoji.remove();
+              addDomNode();
+              return;
+            }
+
+            const direction = +domEmoji.getAttribute('data-direction');
+            const speed = +domEmoji.getAttribute('data-speed') || 1;
+
+            if (Number.isNaN(direction)) {
+              return;
+            }
+
+            const rad = (Math.PI * direction) / 180;
+
+            const deltaX = speed * Math.sin(rad);
+            const deltaY = speed * Math.cos(rad);
+
+            domEmoji.style.left = `${left + deltaX}px`;
+            domEmoji.style.top = `${top + deltaY}px`;
+          }
+        );
+      };
+
+      const goEmoji = () => {
+        for (let i = 0; i < 50; i += 1) {
+          addDomNode();
+        }
+
+        setInterval(moveEmoji, 50);
+      };
+
+      const goGiraffes = facts => {
+        document.getElementById('giraffe_fact').textContent =
+          facts[Math.round(Math.random() * facts.length)];
+        setInterval(() => {
+          document.getElementById('giraffe_fact').textContent =
+            facts[Math.round(Math.random() * facts.length)];
+        }, 10000);
+      };
+
+      const xhr = new XMLHttpRequest();
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4) {
+          getEmoji(JSON.parse(xhr.response));
+          goEmoji();
+        }
+      };
+      xhr.open('GET', 'emoji.json', true);
+      xhr.send();
+
+      const xhr2 = new XMLHttpRequest();
+      xhr2.onreadystatechange = () => {
+        if (xhr2.readyState === 4) {
+          goGiraffes(
+            JSON.parse(
+              atob(JSON.parse(xhr2.response).content.replace('\\n', ''))
+            )
+          );
+        }
+      };
+      xhr2.open(
+        'GET',
+        'https://api.github.com/repos/18F/18f-bot-facts/contents/giraffes.json',
+        true
+      );
+      xhr2.send();
+    </script>
+  </body>
+</html>
