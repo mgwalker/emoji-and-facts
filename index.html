@@ -5,6 +5,7 @@
   </head>
   <body>
     <div
+      id="everything"
       style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 5; display: flex; justify-content: center; align-items: center;"
     >
       <div
@@ -20,48 +21,43 @@
 
       const oneOrTheOther = () => !!Math.round(Math.random());
 
+      const getDirection = () => ({
+        up: () => ({
+          left: () => 90 + Math.random() * 90,
+          right: () => Math.random() * 90
+        }),
+        down: () => ({
+          left: () => 180 + Math.random() * 90,
+          right: () => 270 + Math.random() * 90
+        })
+      });
+
       const addDomNode = () => {
         const { innerHeight, innerWidth } = window;
         let left = 0;
         let top = 0;
-        let direction = 0;
+        let direction = getDirection();
 
         if (oneOrTheOther()) {
+          // Fixed vertical position, random horizontal position.
+          top = oneOrTheOther() ? -32 : innerHeight;
           left = Math.round(Math.random() * innerWidth);
-
-          if (oneOrTheOther()) {
-            top = -32;
-            if (left > innerWidth / 2) {
-              direction = 90 + Math.random() * 90;
-            } else {
-              direction = Math.random() * 90;
-            }
-          } else {
-            top = innerHeight;
-            if (left > innerWidth / 2) {
-              direction = 180 + Math.random() * 90;
-            } else {
-              direction = 270 + Math.random() * 90;
-            }
-          }
         } else {
+          // Fixed horizontal position, random vertical position.
+          left = oneOrTheOther() ? -32 : innerWidth;
           top = Math.round(Math.random() * innerHeight);
+        }
 
-          if (oneOrTheOther()) {
-            left = -32;
-            if (top > innerWidth / 2) {
-              direction = 270 + Math.random() * 90;
-            } else {
-              direction = Math.random() * 90;
-            }
-          } else {
-            left = innerWidth;
-            if (top > innerWidth / 2) {
-              direction = 90 + Math.random() * 90;
-            } else {
-              direction = 270 + Math.random() * 90;
-            }
-          }
+        if (top < innerHeight / 2.0) {
+          direction = direction.down();
+        } else {
+          direction = direction.up();
+        }
+
+        if (left < innerWidth / 2.0) {
+          direction = direction.right();
+        } else {
+          direction = direction.left();
         }
 
         const domEmoji = document.createElement('div');
@@ -101,8 +97,8 @@
 
             const rad = (Math.PI * direction) / 180;
 
-            const deltaX = speed * Math.sin(rad);
-            const deltaY = speed * Math.cos(rad);
+            const deltaX = speed * Math.cos(rad);
+            const deltaY = -speed * Math.sin(rad);
 
             domEmoji.style.left = `${left + deltaX}px`;
             domEmoji.style.top = `${top + deltaY}px`;
