@@ -21,22 +21,22 @@
 
       const oneOrTheOther = () => !!Math.round(Math.random());
 
-      const getDirection = () => ({
-        up: () => ({
+      const moveDirection = {
+        up: {
           left: () => 90 + Math.random() * 90,
           right: () => Math.random() * 90
-        }),
-        down: () => ({
+        },
+        down: {
           left: () => 180 + Math.random() * 90,
           right: () => 270 + Math.random() * 90
-        })
-      });
+        }
+      };
 
       const addDomNode = () => {
         const { innerHeight, innerWidth } = window;
         let left = 0;
         let top = 0;
-        let direction = getDirection();
+        let direction = moveDirection;
 
         if (oneOrTheOther()) {
           // Fixed vertical position, random horizontal position.
@@ -49,9 +49,9 @@
         }
 
         if (top < innerHeight / 2.0) {
-          direction = direction.down();
+          direction = direction.down;
         } else {
-          direction = direction.up();
+          direction = direction.up;
         }
 
         if (left < innerWidth / 2.0) {
