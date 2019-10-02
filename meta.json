@@ -51,7 +51,8 @@
   },
   "1000x": {
     "aliases": [
-      "1000x"
+      "1000x",
+      "thousand"
     ],
     "file": "emoji/1000x.png"
   },
@@ -296,6 +297,12 @@
     ],
     "file": "emoji/abacus.png"
   },
+  "abba": {
+    "aliases": [
+      "abba"
+    ],
+    "file": "emoji/abba.png"
+  },
   "abominable_snowman": {
     "aliases": [
       "abominable_snowman"
@@ -374,6 +381,12 @@
     ],
     "file": "emoji/acronyms.png"
   },
+  "action-dan": {
+    "aliases": [
+      "action-dan"
+    ],
+    "file": "emoji/action-dan.jpg"
+  },
   "actual-taco": {
     "aliases": [
       "actual-taco",
@@ -426,6 +439,12 @@
     ],
     "file": "emoji/admiral-ackbar.png"
   },
+  "adobe-flash": {
+    "aliases": [
+      "adobe-flash"
+    ],
+    "file": "emoji/adobe-flash.jpg"
+  },
   "adobecc": {
     "aliases": [
       "adobecc"
@@ -470,6 +489,12 @@
     ],
     "file": "emoji/ainsley.jpg"
   },
+  "air-jordan": {
+    "aliases": [
+      "air-jordan"
+    ],
+    "file": "emoji/air-jordan.png"
+  },
   "air-quote-l": {
     "aliases": [
       "air-quote-l"
@@ -505,6 +530,12 @@
       "alabama"
     ],
     "file": "emoji/alabama.png"
+  },
+  "alameda": {
+    "aliases": [
+      "alameda"
+    ],
+    "file": "emoji/alameda.jpg"
   },
   "alan-special": {
     "aliases": [
@@ -839,6 +870,13 @@
     ],
     "file": "emoji/aplus.jpg"
   },
+  "applause": {
+    "aliases": [
+      "applause",
+      "clapping"
+    ],
+    "file": "emoji/applause.gif"
+  },
   "apple_pie": {
     "aliases": [
       "apple_pie",
@@ -1058,6 +1096,13 @@
     ],
     "file": "emoji/bacon-2.png"
   },
+  "bad-joke-dog": {
+    "aliases": [
+      "bad-joke-dog",
+      "pun-dog"
+    ],
+    "file": "emoji/bad-joke-dog.png"
+  },
   "badbrains": {
     "aliases": [
       "badbrains",
@@ -1120,6 +1165,12 @@
       "bald-eagle"
     ],
     "file": "emoji/bald-eagle.png"
+  },
+  "ballmer": {
+    "aliases": [
+      "ballmer"
+    ],
+    "file": "emoji/ballmer.gif"
   },
   "banana-split": {
     "aliases": [
@@ -1377,6 +1428,12 @@
     ],
     "file": "emoji/beaver.png"
   },
+  "beavis-butthead": {
+    "aliases": [
+      "beavis-butthead"
+    ],
+    "file": "emoji/beavis-butthead.jpg"
+  },
   "because-government": {
     "aliases": [
       "because-government",
@@ -1413,6 +1470,12 @@
       "benedryl"
     ],
     "file": "emoji/benedryl.jpg"
+  },
+  "bercow": {
+    "aliases": [
+      "bercow"
+    ],
+    "file": "emoji/bercow.jpg"
   },
   "beret": {
     "aliases": [
@@ -1597,6 +1660,12 @@
       "bizarro"
     ],
     "file": "emoji/bizarro.png"
+  },
+  "bjorn": {
+    "aliases": [
+      "bjorn"
+    ],
+    "file": "emoji/bjorn.png"
   },
   "black-cat-fluffy-tail": {
     "aliases": [
@@ -2020,6 +2089,18 @@
     ],
     "file": "emoji/brannigan.jpg"
   },
+  "brave-little-toaster": {
+    "aliases": [
+      "brave-little-toaster"
+    ],
+    "file": "emoji/brave-little-toaster.png"
+  },
+  "bravo_network": {
+    "aliases": [
+      "bravo_network"
+    ],
+    "file": "emoji/bravo_network.png"
+  },
   "brawndo-the-thirst-mutilator": {
     "aliases": [
       "brawndo-the-thirst-mutilator"
@@ -2172,6 +2253,12 @@
     ],
     "file": "emoji/bulbasaur.png"
   },
+  "bull": {
+    "aliases": [
+      "bull"
+    ],
+    "file": "emoji/bull.png"
+  },
   "bulldog": {
     "aliases": [
       "bulldog"
@@ -2222,7 +2309,8 @@
   },
   "business-cat": {
     "aliases": [
-      "business-cat"
+      "business-cat",
+      "serious-business"
     ],
     "file": "emoji/business-cat.jpg"
   },
@@ -2231,6 +2319,12 @@
       "business-dog"
     ],
     "file": "emoji/business-dog.jpg"
+  },
+  "business-goose": {
+    "aliases": [
+      "business-goose"
+    ],
+    "file": "emoji/business-goose.png"
   },
   "business": {
     "aliases": [
@@ -2479,6 +2573,12 @@
     ],
     "file": "emoji/caps.png"
   },
+  "captain-ahab": {
+    "aliases": [
+      "captain-ahab"
+    ],
+    "file": "emoji/captain-ahab.png"
+  },
   "captain-america-shield": {
     "aliases": [
       "captain-america-shield"
@@ -2710,6 +2810,12 @@
     ],
     "file": "emoji/catwoman.png"
   },
+  "cauliflower": {
+    "aliases": [
+      "cauliflower"
+    ],
+    "file": "emoji/cauliflower.png"
+  },
   "caveman-2": {
     "aliases": [
       "caveman-2"
@@ -2747,6 +2853,18 @@
     ],
     "file": "emoji/ceci_pipe.jpg"
   },
+  "celebrate": {
+    "aliases": [
+      "celebrate"
+    ],
+    "file": "emoji/celebrate.jpg"
+  },
+  "celebrateemoji": {
+    "aliases": [
+      "celebrateemoji"
+    ],
+    "file": "emoji/celebrateemoji.jpg"
+  },
   "celery": {
     "aliases": [
       "celery"
@@ -2758,6 +2876,12 @@
       "celery_python"
     ],
     "file": "emoji/celery_python.jpg"
+  },
+  "celeryman": {
+    "aliases": [
+      "celeryman"
+    ],
+    "file": "emoji/celeryman.gif"
   },
   "census": {
     "aliases": [
@@ -2915,6 +3039,12 @@
     ],
     "file": "emoji/check.png"
   },
+  "cheddar": {
+    "aliases": [
+      "cheddar"
+    ],
+    "file": "emoji/cheddar.jpg"
+  },
   "cheerleader": {
     "aliases": [
       "cheerleader"
@@ -2992,6 +3122,14 @@
       "chicken-little"
     ],
     "file": "emoji/chicken-little.jpg"
+  },
+  "chicken-nugget": {
+    "aliases": [
+      "chicken-nugget",
+      "chicken-nugs",
+      "nuggets"
+    ],
+    "file": "emoji/chicken-nugget.jpg"
   },
   "chiefs": {
     "aliases": [
@@ -3145,7 +3283,9 @@
   },
   "clean-up": {
     "aliases": [
-      "clean-up"
+      "broom",
+      "clean-up",
+      "sweep"
     ],
     "file": "emoji/clean-up.png"
   },
@@ -3365,6 +3505,12 @@
     ],
     "file": "emoji/coffeebreak.jpg"
   },
+  "cogs": {
+    "aliases": [
+      "cogs"
+    ],
+    "file": "emoji/cogs.png"
+  },
   "coin": {
     "aliases": [
       "coin"
@@ -3383,6 +3529,12 @@
       "col-sanders"
     ],
     "file": "emoji/col-sanders.png"
+  },
+  "colon": {
+    "aliases": [
+      "colon"
+    ],
+    "file": "emoji/colon.png"
   },
   "colonialgiamatti": {
     "aliases": [
@@ -3665,6 +3817,12 @@
     ],
     "file": "emoji/credhub.jpg"
   },
+  "creed_biznus": {
+    "aliases": [
+      "creed_biznus"
+    ],
+    "file": "emoji/creed_biznus.png"
+  },
   "cricket-2": {
     "aliases": [
       "cricket-2"
@@ -3896,6 +4054,12 @@
       "exterminate"
     ],
     "file": "emoji/dalek.png"
+  },
+  "dali": {
+    "aliases": [
+      "dali"
+    ],
+    "file": "emoji/dali.png"
   },
   "dam-daniel": {
     "aliases": [
@@ -4200,6 +4364,12 @@
     ],
     "file": "emoji/deal-with-it.png"
   },
+  "dear-evan-hansen": {
+    "aliases": [
+      "dear-evan-hansen"
+    ],
+    "file": "emoji/dear-evan-hansen.png"
+  },
   "death-star-assault": {
     "aliases": [
       "death-star-assault",
@@ -4396,6 +4566,12 @@
     ],
     "file": "emoji/diet-coke.png"
   },
+  "dig-em": {
+    "aliases": [
+      "dig-em"
+    ],
+    "file": "emoji/dig-em.png"
+  },
   "dig": {
     "aliases": [
       "dig"
@@ -4461,6 +4637,12 @@
       "disappointed-queen2"
     ],
     "file": "emoji/disappointed-queen2.jpg"
+  },
+  "disapproved": {
+    "aliases": [
+      "disapproved"
+    ],
+    "file": "emoji/disapproved.png"
   },
   "disapproving-marge": {
     "aliases": [
@@ -4920,6 +5102,12 @@
     ],
     "file": "emoji/drowning.gif"
   },
+  "drteeth": {
+    "aliases": [
+      "drteeth"
+    ],
+    "file": "emoji/drteeth.jpg"
+  },
   "drum": {
     "aliases": [
       "drum"
@@ -4985,6 +5173,12 @@
       "dunkaccino"
     ],
     "file": "emoji/dunkaccino.png"
+  },
+  "duolingo": {
+    "aliases": [
+      "duolingo"
+    ],
+    "file": "emoji/duolingo.png"
   },
   "dwight-schrute": {
     "aliases": [
@@ -5110,6 +5304,12 @@
     ],
     "file": "emoji/eiffel.jpg"
   },
+  "eigengrau": {
+    "aliases": [
+      "eigengrau"
+    ],
+    "file": "emoji/eigengrau.png"
+  },
   "either": {
     "aliases": [
       "either"
@@ -5140,6 +5340,12 @@
     ],
     "file": "emoji/electric_love.gif"
   },
+  "eligibility-apis-initiative": {
+    "aliases": [
+      "eligibility-apis-initiative"
+    ],
+    "file": "emoji/eligibility-apis-initiative.png"
+  },
   "ellipses": {
     "aliases": [
       "ellipses"
@@ -5164,6 +5370,12 @@
       "emo-ji"
     ],
     "file": "emoji/emo.jpg"
+  },
+  "empanadas": {
+    "aliases": [
+      "empanadas"
+    ],
+    "file": "emoji/empanadas.png"
   },
   "emperor-norton": {
     "aliases": [
@@ -5482,6 +5694,12 @@
     ],
     "file": "emoji/false-alarm.jpg"
   },
+  "falukorv": {
+    "aliases": [
+      "falukorv"
+    ],
+    "file": "emoji/falukorv.png"
+  },
   "familyfirst": {
     "aliases": [
       "familyfirst"
@@ -5775,6 +5993,12 @@
     ],
     "file": "emoji/fisi.png"
   },
+  "fists": {
+    "aliases": [
+      "fists"
+    ],
+    "file": "emoji/fists.png"
+  },
   "flabbergasted": {
     "aliases": [
       "flabbergasted"
@@ -5861,6 +6085,12 @@
       "florida-flag"
     ],
     "file": "emoji/florida-flag.png"
+  },
+  "florida": {
+    "aliases": [
+      "florida"
+    ],
+    "file": "emoji/florida.png"
   },
   "fluff": {
     "aliases": [
@@ -6074,6 +6304,14 @@
     ],
     "file": "emoji/friday-the-13th.png"
   },
+  "fridge": {
+    "aliases": [
+      "fridge",
+      "icebox",
+      "refrigerator"
+    ],
+    "file": "emoji/fridge.png"
+  },
   "friendship_is_magic": {
     "aliases": [
       "friendship_is_magic"
@@ -6083,7 +6321,9 @@
   "fry": {
     "aliases": [
       "fry",
-      "not-sure-if"
+      "narrowed-eyes",
+      "not-sure-if",
+      "squinting"
     ],
     "file": "emoji/fry.jpg"
   },
@@ -6548,6 +6788,12 @@
     ],
     "file": "emoji/go-deeper.png"
   },
+  "go-get-em": {
+    "aliases": [
+      "go-get-em"
+    ],
+    "file": "emoji/go-get-em.jpg"
+  },
   "go-on": {
     "aliases": [
       "go-on"
@@ -6673,6 +6919,12 @@
     ],
     "file": "emoji/golden-arches.png"
   },
+  "golden-handcuffs": {
+    "aliases": [
+      "golden-handcuffs"
+    ],
+    "file": "emoji/golden-handcuffs.jpg"
+  },
   "goldengirls": {
     "aliases": [
       "goldengirls"
@@ -6795,6 +7047,12 @@
     ],
     "file": "emoji/gooooool.jpg"
   },
+  "goose": {
+    "aliases": [
+      "goose"
+    ],
+    "file": "emoji/goose.png"
+  },
   "goosebumps": {
     "aliases": [
       "goosebumps"
@@ -6875,6 +7133,12 @@
     ],
     "file": "emoji/grandpa-simpson.jpg"
   },
+  "gray-duck": {
+    "aliases": [
+      "gray-duck"
+    ],
+    "file": "emoji/gray-duck.png"
+  },
   "gray-heart": {
     "aliases": [
       "gray-heart"
@@ -6923,6 +7187,13 @@
     ],
     "file": "emoji/green-arkleseizure.jpg"
   },
+  "green-flag": {
+    "aliases": [
+      "go",
+      "green-flag"
+    ],
+    "file": "emoji/green-flag.png"
+  },
   "green-scarf": {
     "aliases": [
       "green-scarf"
@@ -6961,7 +7232,8 @@
   },
   "gremlin": {
     "aliases": [
-      "gremlin"
+      "gremlin",
+      "mogwai"
     ],
     "file": "emoji/gremlin.jpg"
   },
@@ -7128,6 +7400,12 @@
       "gumby"
     ],
     "file": "emoji/gumby.png"
+  },
+  "gummybear": {
+    "aliases": [
+      "gummybear"
+    ],
+    "file": "emoji/gummybear.png"
   },
   "guy-fawkes": {
     "aliases": [
@@ -7297,6 +7575,12 @@
       "handcuffs"
     ],
     "file": "emoji/handcuffs.png"
+  },
+  "handsome-ron": {
+    "aliases": [
+      "handsome-ron"
+    ],
+    "file": "emoji/handsome-ron.png"
   },
   "hanginthere": {
     "aliases": [
@@ -7475,6 +7759,12 @@
     ],
     "file": "emoji/hear2.png"
   },
+  "hearhear": {
+    "aliases": [
+      "hearhear"
+    ],
+    "file": "emoji/hearhear.png"
+  },
   "heart-hand-left": {
     "aliases": [
       "heart-hand-left"
@@ -7516,6 +7806,12 @@
       "heat-miser"
     ],
     "file": "emoji/heat-miser.jpg"
+  },
+  "heavy-breathing": {
+    "aliases": [
+      "heavy-breathing"
+    ],
+    "file": "emoji/heavy-breathing.jpg"
   },
   "heavyliesthecrown": {
     "aliases": [
@@ -7576,6 +7872,14 @@
       "hello-mrsdoubtfire"
     ],
     "file": "emoji/hello-mrsdoubtfire.jpg"
+  },
+  "hello": {
+    "aliases": [
+      "hello",
+      "is-it-me-youre-looking-for",
+      "lionel-ritchie"
+    ],
+    "file": "emoji/hello.png"
   },
   "hellraiser": {
     "aliases": [
@@ -7666,7 +7970,9 @@
   },
   "hitchin_thumb": {
     "aliases": [
-      "hitchin_thumb"
+      "ejected",
+      "hitchin_thumb",
+      "take-a-walk"
     ],
     "file": "emoji/hitchin_thumb.png"
   },
@@ -7827,6 +8133,12 @@
       "hotline"
     ],
     "file": "emoji/hotline.jpg"
+  },
+  "hotpocket": {
+    "aliases": [
+      "hotpocket"
+    ],
+    "file": "emoji/hotpocket.png"
   },
   "house-arryn": {
     "aliases": [
@@ -8211,6 +8523,12 @@
     ],
     "file": "emoji/iceking.jpg"
   },
+  "idaho": {
+    "aliases": [
+      "idaho"
+    ],
+    "file": "emoji/idaho.png"
+  },
   "idcard": {
     "aliases": [
       "idcard"
@@ -8542,6 +8860,19 @@
     ],
     "file": "emoji/itsfriday.jpg"
   },
+  "itty-bitty-living-space": {
+    "aliases": [
+      "itty-bitty-living-space"
+    ],
+    "file": "emoji/itty-bitty-living-space.png"
+  },
+  "ive-made-a-huge-mistake": {
+    "aliases": [
+      "huge-mistake",
+      "ive-made-a-huge-mistake"
+    ],
+    "file": "emoji/ive-made-a-huge-mistake.png"
+  },
   "ive": {
     "aliases": [
       "aluminneum",
@@ -8651,6 +8982,12 @@
     ],
     "file": "emoji/james-joyce.jpg"
   },
+  "james-t-kirk-01": {
+    "aliases": [
+      "james-t-kirk-01"
+    ],
+    "file": "emoji/james-t-kirk-01.png"
+  },
   "jameslipton": {
     "aliases": [
       "jameslipton"
@@ -8719,6 +9056,24 @@
       "jaw-drop"
     ],
     "file": "emoji/jaw-drop.png"
+  },
+  "jaws-brody": {
+    "aliases": [
+      "jaws-brody"
+    ],
+    "file": "emoji/jaws-brody.png"
+  },
+  "jaws-hooper": {
+    "aliases": [
+      "jaws-hooper"
+    ],
+    "file": "emoji/jaws-hooper.png"
+  },
+  "jaws-quint": {
+    "aliases": [
+      "jaws-quint"
+    ],
+    "file": "emoji/jaws-quint.png"
   },
   "jaws": {
     "aliases": [
@@ -8928,6 +9283,12 @@
     ],
     "file": "emoji/joshua-tree.png"
   },
+  "joy-division": {
+    "aliases": [
+      "joy-division"
+    ],
+    "file": "emoji/joy-division.png"
+  },
   "json": {
     "aliases": [
       "json"
@@ -8988,6 +9349,18 @@
     ],
     "file": "emoji/julia-child.png"
   },
+  "jump-high-five": {
+    "aliases": [
+      "jump-high-five"
+    ],
+    "file": "emoji/jump-high-five.png"
+  },
+  "jumping-high-five": {
+    "aliases": [
+      "jumping-high-five"
+    ],
+    "file": "emoji/jumping-high-five.jpg"
+  },
   "jumptoconclusions": {
     "aliases": [
       "jumptoconclusions"
@@ -9012,6 +9385,12 @@
       "just-a-bit"
     ],
     "file": "emoji/just-a-bit.jpg"
+  },
+  "just-kidding": {
+    "aliases": [
+      "just-kidding"
+    ],
+    "file": "emoji/just-kidding.png"
   },
   "just_do_it": {
     "aliases": [
@@ -9073,6 +9452,12 @@
       "kangaroo"
     ],
     "file": "emoji/kangaroo.png"
+  },
+  "kansas-city-developer-conference": {
+    "aliases": [
+      "kansas-city-developer-conference"
+    ],
+    "file": "emoji/kansas-city-developer-conference.png"
   },
   "kansas": {
     "aliases": [
@@ -9208,6 +9593,12 @@
     ],
     "file": "emoji/kent-brockman.png"
   },
+  "kentucky": {
+    "aliases": [
+      "kentucky"
+    ],
+    "file": "emoji/kentucky.png"
+  },
   "kermit-tea": {
     "aliases": [
       "kermit-tea"
@@ -9318,6 +9709,12 @@
     ],
     "file": "emoji/kirby.png"
   },
+  "kirk-not-amused": {
+    "aliases": [
+      "kirk-not-amused"
+    ],
+    "file": "emoji/kirk-not-amused.png"
+  },
   "kit": {
     "aliases": [
       "kit"
@@ -9335,6 +9732,12 @@
       "kitten"
     ],
     "file": "emoji/kitten.png"
+  },
+  "kix": {
+    "aliases": [
+      "kix"
+    ],
+    "file": "emoji/kix.png"
   },
   "kluczynski2": {
     "aliases": [
@@ -9405,7 +9808,8 @@
   },
   "kool_aid": {
     "aliases": [
-      "kool_aid"
+      "kool_aid",
+      "oh_yeah"
     ],
     "file": "emoji/kool_aid.png"
   },
@@ -9616,6 +10020,12 @@
     ],
     "file": "emoji/legolas.png"
   },
+  "lei": {
+    "aliases": [
+      "lei"
+    ],
+    "file": "emoji/lei.png"
+  },
   "lemming": {
     "aliases": [
       "lemming"
@@ -9705,6 +10115,7 @@
   },
   "lightbulb": {
     "aliases": [
+      "idea",
       "lightbulb"
     ],
     "file": "emoji/lightbulb.png"
@@ -10443,6 +10854,19 @@
     ],
     "file": "emoji/maze.png"
   },
+  "mcdonalds": {
+    "aliases": [
+      "im-lovin-it",
+      "mcdonalds"
+    ],
+    "file": "emoji/mcdonalds.png"
+  },
+  "mclaughlin-wrong": {
+    "aliases": [
+      "mclaughlin-wrong"
+    ],
+    "file": "emoji/mclaughlin-wrong.gif"
+  },
   "md5": {
     "aliases": [
       "md5"
@@ -10686,6 +11110,12 @@
     ],
     "file": "emoji/mind-blown.png"
   },
+  "mind-meld": {
+    "aliases": [
+      "mind-meld"
+    ],
+    "file": "emoji/mind-meld.png"
+  },
   "mindblown": {
     "aliases": [
       "mindblown"
@@ -10739,6 +11169,12 @@
       "minority-report-eye-scan"
     ],
     "file": "emoji/minority-report-eye-scan.jpg"
+  },
+  "miracle-max": {
+    "aliases": [
+      "miracle-max"
+    ],
+    "file": "emoji/miracle-max.jpg"
   },
   "mirc": {
     "aliases": [
@@ -10875,6 +11311,12 @@
       "monty_python_foot"
     ],
     "file": "emoji/monty_python_foot.png"
+  },
+  "moose-warning": {
+    "aliases": [
+      "moose-warning"
+    ],
+    "file": "emoji/moose-warning.png"
   },
   "moose": {
     "aliases": [
@@ -11023,6 +11465,12 @@
     ],
     "file": "emoji/mrs-landingham.jpg"
   },
+  "mryuck": {
+    "aliases": [
+      "mryuck"
+    ],
+    "file": "emoji/mryuck.jpg"
+  },
   "msdos": {
     "aliases": [
       "msdos"
@@ -11040,6 +11488,18 @@
       "msu"
     ],
     "file": "emoji/msu.jpg"
+  },
+  "mtv": {
+    "aliases": [
+      "mtv"
+    ],
+    "file": "emoji/mtv.jpg"
+  },
+  "much-rejoicing": {
+    "aliases": [
+      "much-rejoicing"
+    ],
+    "file": "emoji/much-rejoicing.jpg"
   },
   "mugatu": {
     "aliases": [
@@ -11103,6 +11563,12 @@
       "muuaji"
     ],
     "file": "emoji/muuaji.jpg"
+  },
+  "my-man": {
+    "aliases": [
+      "my-man"
+    ],
+    "file": "emoji/my-man.jpg"
   },
   "my-people": {
     "aliases": [
@@ -11175,6 +11641,12 @@
       "nachos"
     ],
     "file": "emoji/nachos.png"
+  },
+  "nada": {
+    "aliases": [
+      "nada"
+    ],
+    "file": "emoji/nada.png"
   },
   "nah": {
     "aliases": [
@@ -11435,6 +11907,12 @@
     ],
     "file": "emoji/new-jersey.png"
   },
+  "new-order": {
+    "aliases": [
+      "new-order"
+    ],
+    "file": "emoji/new-order.jpg"
+  },
   "newman-2": {
     "aliases": [
       "newman-2"
@@ -11464,6 +11942,12 @@
       "newschool"
     ],
     "file": "emoji/newschool.png"
+  },
+  "newspeak": {
+    "aliases": [
+      "newspeak"
+    ],
+    "file": "emoji/newspeak.png"
   },
   "nginx": {
     "aliases": [
@@ -11617,6 +12101,12 @@
     ],
     "file": "emoji/no-soup-for-you.png"
   },
+  "no-to-cats": {
+    "aliases": [
+      "no-to-cats"
+    ],
+    "file": "emoji/no-to-cats.jpg"
+  },
   "no-topping": {
     "aliases": [
       "no-topping"
@@ -11714,6 +12204,12 @@
     ],
     "file": "emoji/noice.jpg"
   },
+  "nom-nom-nom": {
+    "aliases": [
+      "nom-nom-nom"
+    ],
+    "file": "emoji/nom-nom-nom.gif"
+  },
   "noodles": {
     "aliases": [
       "noodles"
@@ -11795,6 +12291,12 @@
       "not-impressed"
     ],
     "file": "emoji/not-impressed.jpg"
+  },
+  "not-it": {
+    "aliases": [
+      "not-it"
+    ],
+    "file": "emoji/not-it.png"
   },
   "not-me": {
     "aliases": [
@@ -11938,6 +12440,12 @@
     ],
     "file": "emoji/oa.png"
   },
+  "oa_logo": {
+    "aliases": [
+      "oa_logo"
+    ],
+    "file": "emoji/oa_logo.png"
+  },
   "oakiedoakieartichokie": {
     "aliases": [
       "oakiedoakieartichokie"
@@ -11950,6 +12458,12 @@
       "oakland"
     ],
     "file": "emoji/oakland.png"
+  },
+  "oatmeal-eyes": {
+    "aliases": [
+      "oatmeal-eyes"
+    ],
+    "file": "emoji/oatmeal-eyes.png"
   },
   "obi-wan-ghost": {
     "aliases": [
@@ -12072,6 +12586,12 @@
       "oksoda"
     ],
     "file": "emoji/oksoda.jpg"
+  },
+  "old-bay": {
+    "aliases": [
+      "old-bay"
+    ],
+    "file": "emoji/old-bay.jpg"
   },
   "old-cossey-pond": {
     "aliases": [
@@ -12226,6 +12746,18 @@
     ],
     "file": "emoji/oneteamonedream.png"
   },
+  "onion-dancing": {
+    "aliases": [
+      "onion-dancing"
+    ],
+    "file": "emoji/onion-dancing.gif"
+  },
+  "onion": {
+    "aliases": [
+      "onion"
+    ],
+    "file": "emoji/onion.png"
+  },
   "oof": {
     "aliases": [
       "oof"
@@ -12347,6 +12879,12 @@
     ],
     "file": "emoji/oscar.jpg"
   },
+  "ostrich": {
+    "aliases": [
+      "ostrich"
+    ],
+    "file": "emoji/ostrich.jpg"
+  },
   "osu": {
     "aliases": [
       "osu"
@@ -12383,6 +12921,12 @@
       "ouija-board"
     ],
     "file": "emoji/ouija-board.png"
+  },
+  "our-town": {
+    "aliases": [
+      "our-town"
+    ],
+    "file": "emoji/our-town.png"
   },
   "ouroboros": {
     "aliases": [
@@ -12623,6 +13167,12 @@
     ],
     "file": "emoji/participant.png"
   },
+  "party-blob": {
+    "aliases": [
+      "party-blob"
+    ],
+    "file": "emoji/party-blob.gif"
+  },
   "party-corgi": {
     "aliases": [
       "party-corgi"
@@ -12676,6 +13226,12 @@
       "partyparrot"
     ],
     "file": "emoji/partyparrot.gif"
+  },
+  "partywizard": {
+    "aliases": [
+      "partywizard"
+    ],
+    "file": "emoji/partywizard.gif"
   },
   "pass": {
     "aliases": [
@@ -12852,6 +13408,12 @@
     ],
     "file": "emoji/peter-griffin.png"
   },
+  "phenomenal-cosmic-power": {
+    "aliases": [
+      "phenomenal-cosmic-power"
+    ],
+    "file": "emoji/phenomenal-cosmic-power.png"
+  },
   "phew": {
     "aliases": [
       "phew",
@@ -12987,6 +13549,12 @@
       "piper"
     ],
     "file": "emoji/piper.jpg"
+  },
+  "pippi": {
+    "aliases": [
+      "pippi"
+    ],
+    "file": "emoji/pippi.png"
   },
   "pirate-billy": {
     "aliases": [
@@ -13266,6 +13834,12 @@
     ],
     "file": "emoji/poof.gif"
   },
+  "poolparty": {
+    "aliases": [
+      "poolparty"
+    ],
+    "file": "emoji/poolparty.gif"
+  },
   "poopsmith": {
     "aliases": [
       "poopsmith"
@@ -13302,6 +13876,12 @@
       "popsicle"
     ],
     "file": "emoji/popsicle.jpg"
+  },
+  "porcupine": {
+    "aliases": [
+      "porcupine"
+    ],
+    "file": "emoji/porcupine.png"
   },
   "porg-walk": {
     "aliases": [
@@ -13412,6 +13992,12 @@
       "ppg-blossom"
     ],
     "file": "emoji/ppg-blossom.gif"
+  },
+  "prancing-moose": {
+    "aliases": [
+      "prancing-moose"
+    ],
+    "file": "emoji/prancing-moose.png"
   },
   "prawn": {
     "aliases": [
@@ -13993,6 +14579,12 @@
     ],
     "file": "emoji/razor.png"
   },
+  "rdio": {
+    "aliases": [
+      "rdio"
+    ],
+    "file": "emoji/rdio.jpg"
+  },
   "re-he-he-heally": {
     "aliases": [
       "re-he-he-heally"
@@ -14040,6 +14632,12 @@
       "record"
     ],
     "file": "emoji/record.jpg"
+  },
+  "red-baron": {
+    "aliases": [
+      "red-baron"
+    ],
+    "file": "emoji/red-baron.gif"
   },
   "red-check": {
     "aliases": [
@@ -14243,6 +14841,24 @@
       "rimshot"
     ],
     "file": "emoji/rimshot.gif"
+  },
+  "rip-torn-dodgeball": {
+    "aliases": [
+      "rip-torn-dodgeball"
+    ],
+    "file": "emoji/rip-torn-dodgeball.png"
+  },
+  "rip-torn-mib": {
+    "aliases": [
+      "rip-torn-mib"
+    ],
+    "file": "emoji/rip-torn-mib.png"
+  },
+  "rip-torn": {
+    "aliases": [
+      "rip-torn"
+    ],
+    "file": "emoji/rip-torn.png"
   },
   "rip-van-winkle": {
     "aliases": [
@@ -14521,6 +15137,12 @@
     ],
     "file": "emoji/rude.jpg"
   },
+  "ruh-roh": {
+    "aliases": [
+      "ruh-roh"
+    ],
+    "file": "emoji/ruh-roh.png"
+  },
   "rule": {
     "aliases": [
       "rule"
@@ -14592,6 +15214,12 @@
       "sad-mac"
     ],
     "file": "emoji/sad-mac.jpg"
+  },
+  "sad-nope": {
+    "aliases": [
+      "sad-nope"
+    ],
+    "file": "emoji/sad-nope.png"
   },
   "sad-rafa": {
     "aliases": [
@@ -14897,6 +15525,12 @@
     ],
     "file": "emoji/scrooge_mcduck.jpg"
   },
+  "scrubbie": {
+    "aliases": [
+      "scrubbie"
+    ],
+    "file": "emoji/scrubbie.png"
+  },
   "scubadiver": {
     "aliases": [
       "scubadiver"
@@ -15138,6 +15772,12 @@
     ],
     "file": "emoji/shaka2.png"
   },
+  "shake-my-head": {
+    "aliases": [
+      "shake-my-head"
+    ],
+    "file": "emoji/shake-my-head.gif"
+  },
   "shakes_fist": {
     "aliases": [
       "shakes_fist"
@@ -15254,6 +15894,12 @@
       "shiny_ball"
     ],
     "file": "emoji/shiny_ball.png"
+  },
+  "shipwreck": {
+    "aliases": [
+      "shipwreck"
+    ],
+    "file": "emoji/shipwreck.png"
   },
   "shira": {
     "aliases": [
@@ -15505,6 +16151,12 @@
     ],
     "file": "emoji/sizzler.png"
   },
+  "skal": {
+    "aliases": [
+      "skal"
+    ],
+    "file": "emoji/skal.png"
+  },
   "skc": {
     "aliases": [
       "skc"
@@ -15536,6 +16188,18 @@
       "sketch"
     ],
     "file": "emoji/sketch.png"
+  },
+  "skunk": {
+    "aliases": [
+      "skunk"
+    ],
+    "file": "emoji/skunk.png"
+  },
+  "skunkworks": {
+    "aliases": [
+      "skunkworks"
+    ],
+    "file": "emoji/skunkworks.png"
   },
   "skynet": {
     "aliases": [
@@ -15585,6 +16249,12 @@
     ],
     "file": "emoji/slimer.png"
   },
+  "slinky": {
+    "aliases": [
+      "slinky"
+    ],
+    "file": "emoji/slinky.gif"
+  },
   "sloth": {
     "aliases": [
       "sloth"
@@ -15608,6 +16278,12 @@
       "slurpee"
     ],
     "file": "emoji/slurpee.jpg"
+  },
+  "smalltown": {
+    "aliases": [
+      "smalltown"
+    ],
+    "file": "emoji/smalltown.jpg"
   },
   "smaug": {
     "aliases": [
@@ -16011,6 +16687,12 @@
     ],
     "file": "emoji/spike.jpg"
   },
+  "spinny-globe": {
+    "aliases": [
+      "spinny-globe"
+    ],
+    "file": "emoji/spinny-globe.gif"
+  },
   "spiraleyes": {
     "aliases": [
       "spiraleyes"
@@ -16211,6 +16893,12 @@
       "stepintime"
     ],
     "file": "emoji/stepintime.png"
+  },
+  "stet": {
+    "aliases": [
+      "stet"
+    ],
+    "file": "emoji/stet.png"
   },
   "stewie-griffin": {
     "aliases": [
@@ -16452,6 +17140,12 @@
     ],
     "file": "emoji/supertrooper.png"
   },
+  "sure-jan": {
+    "aliases": [
+      "sure-jan"
+    ],
+    "file": "emoji/sure-jan.gif"
+  },
   "surely": {
     "aliases": [
       "shirley",
@@ -16482,6 +17176,12 @@
       "suspect"
     ],
     "file": "emoji/suspect.png"
+  },
+  "svelte": {
+    "aliases": [
+      "svelte"
+    ],
+    "file": "emoji/svelte.png"
   },
   "sw-empire": {
     "aliases": [
@@ -16543,12 +17243,24 @@
     ],
     "file": "emoji/sweaty-charlton-heston.png"
   },
+  "swede-viking": {
+    "aliases": [
+      "swede-viking"
+    ],
+    "file": "emoji/swede-viking.png"
+  },
   "sweet": {
     "aliases": [
       "sugar",
       "sweet"
     ],
     "file": "emoji/sweet.jpg"
+  },
+  "swemoji": {
+    "aliases": [
+      "swemoji"
+    ],
+    "file": "emoji/swemoji.png"
   },
   "swill": {
     "aliases": [
@@ -16970,6 +17682,12 @@
     ],
     "file": "emoji/that.png"
   },
+  "thats-the-joke": {
+    "aliases": [
+      "thats-the-joke"
+    ],
+    "file": "emoji/thats-the-joke.png"
+  },
   "thatsallfolks": {
     "aliases": [
       "thatsallfolks"
@@ -16999,6 +17717,12 @@
       "the-artist-formerly-known-as-prince"
     ],
     "file": "emoji/the-artist-formerly-known-as-prince.png"
+  },
+  "the-bay": {
+    "aliases": [
+      "the-bay"
+    ],
+    "file": "emoji/the-bay.jpg"
   },
   "the-beatles": {
     "aliases": [
@@ -17049,6 +17773,12 @@
     ],
     "file": "emoji/the-hustle.png"
   },
+  "the-island-alameda": {
+    "aliases": [
+      "the-island-alameda"
+    ],
+    "file": "emoji/the-island-alameda.png"
+  },
   "the-lady-doth-protest-too-much-methinks": {
     "aliases": [
       "queen-gertrude",
@@ -17091,6 +17821,12 @@
       "the-shadow"
     ],
     "file": "emoji/the-shadow.png"
+  },
+  "the-town-oakland": {
+    "aliases": [
+      "the-town-oakland"
+    ],
+    "file": "emoji/the-town-oakland.png"
   },
   "the-turn": {
     "aliases": [
@@ -17310,6 +18046,12 @@
       "tic-tac-toe-x"
     ],
     "file": "emoji/tic-tac-toe-x.png"
+  },
+  "tic-tac-toe": {
+    "aliases": [
+      "tic-tac-toe"
+    ],
+    "file": "emoji/tic-tac-toe.png"
   },
   "tick": {
     "aliases": [
@@ -17586,6 +18328,12 @@
     ],
     "file": "emoji/today-i-learned.png"
   },
+  "todrick-hall": {
+    "aliases": [
+      "todrick-hall"
+    ],
+    "file": "emoji/todrick-hall.png"
+  },
   "toe": {
     "aliases": [
       "big-toe",
@@ -17685,6 +18433,12 @@
     ],
     "file": "emoji/topgun.png"
   },
+  "topo-chico": {
+    "aliases": [
+      "topo-chico"
+    ],
+    "file": "emoji/topo-chico.png"
+  },
   "torch": {
     "aliases": [
       "torch"
@@ -17769,6 +18523,12 @@
     ],
     "file": "emoji/trainspotting.png"
   },
+  "trainwreck": {
+    "aliases": [
+      "trainwreck"
+    ],
+    "file": "emoji/trainwreck.jpg"
+  },
   "trans-pride": {
     "aliases": [
       "trans-pride"
@@ -17836,6 +18596,12 @@
       "trex_plz"
     ],
     "file": "emoji/trex_plz.png"
+  },
+  "tribble": {
+    "aliases": [
+      "tribble"
+    ],
+    "file": "emoji/tribble.png"
   },
   "tribute": {
     "aliases": [
@@ -18361,6 +19127,12 @@
     ],
     "file": "emoji/use-the-force.png"
   },
+  "user": {
+    "aliases": [
+      "user"
+    ],
+    "file": "emoji/user.png"
+  },
   "usgs": {
     "aliases": [
       "usgs"
@@ -18507,6 +19279,12 @@
     ],
     "file": "emoji/vey.png"
   },
+  "viking-ship": {
+    "aliases": [
+      "viking-ship"
+    ],
+    "file": "emoji/viking-ship.png"
+  },
   "viking": {
     "aliases": [
       "viking"
@@ -18586,6 +19364,12 @@
     ],
     "file": "emoji/vpn2.png"
   },
+  "vue": {
+    "aliases": [
+      "vue"
+    ],
+    "file": "emoji/vue.png"
+  },
   "w-o-w": {
     "aliases": [
       "w-o-w",
@@ -18604,6 +19388,12 @@
       "waffle"
     ],
     "file": "emoji/waffle.png"
+  },
+  "wait-what": {
+    "aliases": [
+      "wait-what"
+    ],
+    "file": "emoji/wait-what.png"
   },
   "waiting": {
     "aliases": [
@@ -18658,6 +19448,12 @@
       "wand"
     ],
     "file": "emoji/wand.png"
+  },
+  "wardley": {
+    "aliases": [
+      "wardley"
+    ],
+    "file": "emoji/wardley.jpg"
   },
   "wario": {
     "aliases": [
@@ -18745,6 +19541,12 @@
     ],
     "file": "emoji/waving-duck.gif"
   },
+  "waving-snail-adventure-time": {
+    "aliases": [
+      "waving-snail-adventure-time"
+    ],
+    "file": "emoji/waving-snail-adventure-time.png"
+  },
   "we-are-happy-to-serve-you": {
     "aliases": [
       "we-are-happy-to-serve-you"
@@ -18823,6 +19625,13 @@
       "weis"
     ],
     "file": "emoji/weis.png"
+  },
+  "welcome-back": {
+    "aliases": [
+      "gabe-kaplan",
+      "welcome-back"
+    ],
+    "file": "emoji/welcome-back.png"
   },
   "welcome": {
     "aliases": [
@@ -19245,6 +20054,12 @@
     ],
     "file": "emoji/wolverine.png"
   },
+  "wombat": {
+    "aliases": [
+      "wombat"
+    ],
+    "file": "emoji/wombat.jpg"
+  },
   "wonder-twin-powers-activate": {
     "aliases": [
       "wonder-twin-powers-activate"
@@ -19372,6 +20187,13 @@
       "woz"
     ],
     "file": "emoji/woz.png"
+  },
+  "wq": {
+    "aliases": [
+      "vim-quit",
+      "wq"
+    ],
+    "file": "emoji/wq.png"
   },
   "wtf": {
     "aliases": [
@@ -19606,6 +20428,18 @@
     ],
     "file": "emoji/yield.png"
   },
+  "yikes": {
+    "aliases": [
+      "yikes"
+    ],
+    "file": "emoji/yikes.png"
+  },
+  "yngwie": {
+    "aliases": [
+      "yngwie"
+    ],
+    "file": "emoji/yngwie.png"
+  },
   "yo-2": {
     "aliases": [
       "yo-2"
@@ -19757,6 +20591,12 @@
     ],
     "file": "emoji/yuck.png"
   },
+  "yulegoat": {
+    "aliases": [
+      "yulegoat"
+    ],
+    "file": "emoji/yulegoat.png"
+  },
   "yuno": {
     "aliases": [
       "yuno"
@@ -19786,6 +20626,12 @@
       "zamboni"
     ],
     "file": "emoji/zamboni.gif"
+  },
+  "zardoz": {
+    "aliases": [
+      "zardoz"
+    ],
+    "file": "emoji/zardoz.png"
   },
   "zelda-majoras-mask": {
     "aliases": [

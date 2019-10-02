@@ -7,6 +7,10 @@ const readline = require('readline').createInterface({
   output: process.stdout
 });
 
+// Expects imgcat in order to work:
+// brew install imgcat
+// and a terminal that supports it
+
 // Get the list of emoji to be excluded
 const ignore = require('./ignore.json');
 
@@ -134,3 +138,24 @@ promptAboutAllTheEmoji()
     console.log(e);
     readline.close();
   });
+
+// Holding place: the metadata file generated above breaks the grid tooltips,
+// but I haven't looked into it yet so here's some stuff to drop into a REPL
+// to fix it.
+// --------------
+// const oldmeta = require('./meta.json');
+// fs.writeFileSync(
+//   './newMeta.json',
+//   JSON.stringify(
+//     Object.entries(oldmeta).reduce((o, [name, meta]) => {
+//       if (meta.aliases.length) {
+//         return { ...o, [name]: meta };
+//       } else {
+//         return { ...o, [name]: { ...meta, aliases: [name] } };
+//       }
+//     }, {}),
+//     null,
+//     2
+//   ),
+//   { encoding: 'utf-8' }
+// );
