@@ -92,6 +92,12 @@
     ],
     "file": "emoji/18f-pride.png"
   },
+  "18f-representation-matters": {
+    "aliases": [
+      "18f-representation-matters"
+    ],
+    "file": "emoji/18f-representation-matters.png"
+  },
   "18f": {
     "aliases": [
       "18f"
@@ -279,6 +285,13 @@
     ],
     "file": "emoji/a11y-rocks.jpg"
   },
+  "a_plus": {
+    "aliases": [
+      "a-plus",
+      "a_plus"
+    ],
+    "file": "emoji/a_plus.png"
+  },
   "aa": {
     "aliases": [
       "aa"
@@ -333,6 +346,12 @@
     ],
     "file": "emoji/acdc-highway-to-hell.jpg"
   },
+  "ace-pride": {
+    "aliases": [
+      "ace-pride"
+    ],
+    "file": "emoji/ace-pride.png"
+  },
   "acerbic-standup-krusty": {
     "aliases": [
       "acerbic-standup-krusty"
@@ -350,6 +369,12 @@
       "ack"
     ],
     "file": "emoji/ack.jpg"
+  },
+  "acknowledge": {
+    "aliases": [
+      "acknowledge"
+    ],
+    "file": "emoji/acknowledge.png"
   },
   "acme_anvil": {
     "aliases": [
@@ -1178,6 +1203,12 @@
     ],
     "file": "emoji/banana-split.png"
   },
+  "banana-stand": {
+    "aliases": [
+      "banana-stand"
+    ],
+    "file": "emoji/banana-stand.png"
+  },
   "bananasinpajamas": {
     "aliases": [
       "bananasinpajamas"
@@ -1524,6 +1555,12 @@
       "bezos-laughing"
     ],
     "file": "emoji/bezos-laughing.png"
+  },
+  "bi-pride": {
+    "aliases": [
+      "bi-pride"
+    ],
+    "file": "emoji/bi-pride.png"
   },
   "bibimbap": {
     "aliases": [
@@ -3202,6 +3239,12 @@
       "cinnamon-roll"
     ],
     "file": "emoji/cinnamon-roll.jpg"
+  },
+  "circle-a-plus": {
+    "aliases": [
+      "circle-a-plus"
+    ],
+    "file": "emoji/circle-a-plus.png"
   },
   "circleci": {
     "aliases": [
@@ -5358,6 +5401,12 @@
     ],
     "file": "emoji/elote.jpg"
   },
+  "emacs": {
+    "aliases": [
+      "emacs"
+    ],
+    "file": "emoji/emacs.png"
+  },
   "emaw": {
     "aliases": [
       "emaw"
@@ -6519,6 +6568,12 @@
     ],
     "file": "emoji/gem-dropping.png"
   },
+  "genderqueer-pride": {
+    "aliases": [
+      "genderqueer-pride"
+    ],
+    "file": "emoji/genderqueer-pride.png"
+  },
   "genie-2": {
     "aliases": [
       "genie-2",
@@ -7642,6 +7697,18 @@
     ],
     "file": "emoji/happy-tooth.png"
   },
+  "happy-walking-man": {
+    "aliases": [
+      "happy-walking-man"
+    ],
+    "file": "emoji/happy-walking-man.png"
+  },
+  "happy-walking-woman": {
+    "aliases": [
+      "happy-walking-woman"
+    ],
+    "file": "emoji/happy-walking-woman.png"
+  },
   "happy_dance": {
     "aliases": [
       "happy_dance"
@@ -8714,6 +8781,12 @@
       "interrobang-2"
     ],
     "file": "emoji/interrobang-2.png"
+  },
+  "intersex-pride": {
+    "aliases": [
+      "intersex-pride"
+    ],
+    "file": "emoji/intersex-pride.png"
   },
   "invision": {
     "aliases": [
@@ -10694,6 +10767,12 @@
     ],
     "file": "emoji/margarita.jpg"
   },
+  "marge-chanel": {
+    "aliases": [
+      "marge-chanel"
+    ],
+    "file": "emoji/marge-chanel.png"
+  },
   "marie-kondo": {
     "aliases": [
       "marie-kondo"
@@ -11488,6 +11567,36 @@
       "msu"
     ],
     "file": "emoji/msu.jpg"
+  },
+  "mtg-black-mana": {
+    "aliases": [
+      "mtg-black-mana"
+    ],
+    "file": "emoji/mtg-black-mana.png"
+  },
+  "mtg-blue-mana": {
+    "aliases": [
+      "mtg-blue-mana"
+    ],
+    "file": "emoji/mtg-blue-mana.png"
+  },
+  "mtg-green-mana": {
+    "aliases": [
+      "mtg-green-mana"
+    ],
+    "file": "emoji/mtg-green-mana.png"
+  },
+  "mtg-red-mana": {
+    "aliases": [
+      "mtg-red-mana"
+    ],
+    "file": "emoji/mtg-red-mana.png"
+  },
+  "mtg-white-mana": {
+    "aliases": [
+      "mtg-white-mana"
+    ],
+    "file": "emoji/mtg-white-mana.png"
   },
   "mtv": {
     "aliases": [
@@ -13043,6 +13152,12 @@
     ],
     "file": "emoji/palpatine.png"
   },
+  "pan-pride": {
+    "aliases": [
+      "pan-pride"
+    ],
+    "file": "emoji/pan-pride.png"
+  },
   "pan": {
     "aliases": [
       "frying-pan",
@@ -14337,6 +14452,14 @@
       "pusheen_unicorn"
     ],
     "file": "emoji/pusheen_unicorn.gif"
+  },
+  "put-on-your-mask-first": {
+    "aliases": [
+      "put-on-your-mask-first",
+      "put-your-mask-on",
+      "put-your-mask-on-first"
+    ],
+    "file": "emoji/put-on-your-mask-first.jpg"
   },
   "pylon": {
     "aliases": [
@@ -17060,6 +17183,12 @@
     ],
     "file": "emoji/stump.jpg"
   },
+  "sublime-text": {
+    "aliases": [
+      "sublime-text"
+    ],
+    "file": "emoji/sublime-text.jpg"
+  },
   "submarine": {
     "aliases": [
       "submarine"
@@ -17382,6 +17511,12 @@
       "tales-from-the-crypt"
     ],
     "file": "emoji/tales-from-the-crypt.jpg"
+  },
+  "talking-hand": {
+    "aliases": [
+      "talking-hand"
+    ],
+    "file": "emoji/talking-hand.gif"
   },
   "tank_top_kirsten": {
     "aliases": [
@@ -19211,6 +19346,13 @@
     ],
     "file": "emoji/vampire-2.png"
   },
+  "vault-boy": {
+    "aliases": [
+      "fallout",
+      "vault-boy"
+    ],
+    "file": "emoji/vault-boy.png"
+  },
   "vegan": {
     "aliases": [
       "vegan"
@@ -19363,6 +19505,12 @@
       "vpn2"
     ],
     "file": "emoji/vpn2.png"
+  },
+  "vscode": {
+    "aliases": [
+      "vscode"
+    ],
+    "file": "emoji/vscode.png"
   },
   "vue": {
     "aliases": [
