@@ -24,6 +24,12 @@
     ],
     "file": "emoji/3560.png"
   },
+  "4143": {
+    "aliases": [
+      "4143"
+    ],
+    "file": "emoji/4143.png"
+  },
   "4300": {
     "aliases": [
       "4300"
@@ -316,6 +322,12 @@
     ],
     "file": "emoji/abba.png"
   },
+  "abide": {
+    "aliases": [
+      "abide"
+    ],
+    "file": "emoji/abide.jpg"
+  },
   "abominable_snowman": {
     "aliases": [
       "abominable_snowman"
@@ -387,6 +399,18 @@
       "acoustic_guitar"
     ],
     "file": "emoji/acoustic_guitar.png"
+  },
+  "acqpack": {
+    "aliases": [
+      "acqpack"
+    ],
+    "file": "emoji/acqpack.png"
+  },
+  "acqsubstack-triwizardcup": {
+    "aliases": [
+      "acqsubstack-triwizardcup"
+    ],
+    "file": "emoji/acqsubstack-triwizardcup.png"
   },
   "acquisitionprofessor": {
     "aliases": [
@@ -543,6 +567,12 @@
       "air"
     ],
     "file": "emoji/air.png"
+  },
+  "ais": {
+    "aliases": [
+      "ais"
+    ],
+    "file": "emoji/ais.png"
   },
   "al-borland": {
     "aliases": [
@@ -711,6 +741,12 @@
     ],
     "file": "emoji/alton.png"
   },
+  "alumni": {
+    "aliases": [
+      "alumni"
+    ],
+    "file": "emoji/alumni.png"
+  },
   "alwaysbeshipping": {
     "aliases": [
       "alwaysbeshipping"
@@ -876,6 +912,24 @@
     ],
     "file": "emoji/aperture_science.png"
   },
+  "api-data-gov-2": {
+    "aliases": [
+      "api-data-gov-2"
+    ],
+    "file": "emoji/api-data-gov-2.jpg"
+  },
+  "api-data-gov-3": {
+    "aliases": [
+      "api-data-gov-3"
+    ],
+    "file": "emoji/api-data-gov-3.png"
+  },
+  "api-data-gov": {
+    "aliases": [
+      "api-data-gov"
+    ],
+    "file": "emoji/api-data-gov.jpg"
+  },
   "api2": {
     "aliases": [
       "api2"
@@ -914,6 +968,12 @@
       "approved"
     ],
     "file": "emoji/approved.png"
+  },
+  "apps-dot-gov": {
+    "aliases": [
+      "apps-dot-gov"
+    ],
+    "file": "emoji/apps-dot-gov.png"
   },
   "aquaman": {
     "aliases": [
@@ -968,6 +1028,12 @@
       "arya"
     ],
     "file": "emoji/arya.jpg"
+  },
+  "ask-marietta": {
+    "aliases": [
+      "ask-marietta"
+    ],
+    "file": "emoji/ask-marietta.jpg"
   },
   "at-at": {
     "aliases": [
@@ -4195,6 +4261,12 @@
     ],
     "file": "emoji/dancy_bunny.gif"
   },
+  "dandelion": {
+    "aliases": [
+      "dandelion"
+    ],
+    "file": "emoji/dandelion.png"
+  },
   "danger-will-robinson": {
     "aliases": [
       "danger-will-robinson"
@@ -4782,6 +4854,12 @@
       "do-you-concur"
     ],
     "file": "emoji/do-you-concur.jpg"
+  },
+  "do-you-really-want-to-fuck-with-this": {
+    "aliases": [
+      "do-you-really-want-to-fuck-with-this"
+    ],
+    "file": "emoji/do-you-really-want-to-fuck-with-this.png"
   },
   "doc": {
     "aliases": [
@@ -5614,6 +5692,12 @@
       "exchange"
     ],
     "file": "emoji/exchange.jpg"
+  },
+  "excited-charlie": {
+    "aliases": [
+      "excited-charlie"
+    ],
+    "file": "emoji/excited-charlie.gif"
   },
   "explicit": {
     "aliases": [
@@ -7407,6 +7491,12 @@
       "gsa"
     ],
     "file": "emoji/gsa.jpg"
+  },
+  "gsads": {
+    "aliases": [
+      "gsads"
+    ],
+    "file": "emoji/gsads.png"
   },
   "gsaebuy": {
     "aliases": [
@@ -9495,6 +9585,12 @@
     ],
     "file": "emoji/k8.png"
   },
+  "kabob": {
+    "aliases": [
+      "kabob"
+    ],
+    "file": "emoji/kabob.jpg"
+  },
   "kafka": {
     "aliases": [
       "kafka"
@@ -11103,6 +11199,12 @@
       "mexico"
     ],
     "file": "emoji/mexico.jpg"
+  },
+  "michael-bluth": {
+    "aliases": [
+      "michael-bluth"
+    ],
+    "file": "emoji/michael-bluth.png"
   },
   "michael-bolton": {
     "aliases": [
