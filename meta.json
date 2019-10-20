@@ -13882,7 +13882,9 @@
     "file": "emoji/pixarwoody.jpg"
   },
   "pixie.png": {
-    "aliases": "pixie.png",
+    "aliases": [
+      "pixie.png"
+    ],
     "file": "emoji/pixie.png"
   },
   "pizza-my-heart": {

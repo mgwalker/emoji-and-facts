@@ -101,22 +101,31 @@ const buildEmojiList = async () =>
 // and needs to include aliases and everything for tooltips.
 const buildEmojiMetadata = async () =>
   new Promise(resolve => {
-    fs.readdir('../emoji', (err, files) => {
+    fs.readdir('../emoji', (_, files) => {
       const meta = files.reduce((o, filename) => {
+        // We found an emoji file that's not in the metadata list.
+        // So we'll just make stuff up, based on the filename.
         const emoji = all.find(e => e.filename === filename);
         if (!emoji) {
           return {
             ...o,
             [path.basename(filename)]: {
-              aliases: path.basename(filename),
+              aliases: [path.basename(filename)],
               file: `emoji/${filename}`
             }
           };
         }
+
         return {
           ...o,
           [emoji.name]: {
-            aliases: emoji.synonyms || [emoji.name],
+            // For emoji with no aliases, Slack sets the synonyms property
+            // to an empty array. For emoji WITH alises, the synonyms property
+            // is an array of all aliases INCLUDING the base emoji. That is
+            // bizarrely inconsistent, so we'll change the behavior: our
+            // aliases list will always include the base emoji, whether it
+            // has other aliases or not.
+            aliases: emoji.synonyms.length ? emoji.synonyms : [emoji.name],
             file: `emoji/${filename}`
           }
         };
@@ -138,24 +147,3 @@ promptAboutAllTheEmoji()
     console.log(e);
     readline.close();
   });
-
-// Holding place: the metadata file generated above breaks the grid tooltips,
-// but I haven't looked into it yet so here's some stuff to drop into a REPL
-// to fix it.
-// --------------
-// const oldmeta = require('./meta.json');
-// fs.writeFileSync(
-//   './newMeta.json',
-//   JSON.stringify(
-//     Object.entries(oldmeta).reduce((o, [name, meta]) => {
-//       if (meta.aliases.length) {
-//         return { ...o, [name]: meta };
-//       } else {
-//         return { ...o, [name]: { ...meta, aliases: [name] } };
-//       }
-//     }, {}),
-//     null,
-//     2
-//   ),
-//   { encoding: 'utf-8' }
-// );
