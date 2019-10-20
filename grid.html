@@ -55,30 +55,54 @@
     <div class="container"></div>
 
     <script type="text/javascript">
-      const xhr = new XMLHttpRequest();
-      xhr.onreadystatechange = function() {
-        if (xhr.readyState === 4) {
+      fetch('meta.json')
+        .then(r => r.json())
+        .then(emojis => Object.values(emojis))
+        .then(emojis => {
           const container = document.querySelector('.container');
-          const emojis = Object.values(JSON.parse(xhr.response));
-          emojis.forEach(emoji => {
-            const column = document.createElement('div');
-            column.setAttribute('class', 'column');
 
-            const img = document.createElement('img');
-            img.setAttribute('src', emoji.file);
-            column.appendChild(img);
+          const renderEmoji = (() => {
+            let startingAt = 0;
+            return () => {
+              for (
+                let i = startingAt;
+                i < startingAt + 100 && i < emojis.length;
+                i += 1
+              ) {
+                const emoji = emojis[i];
 
-            const tooltip = document.createElement('span');
-            tooltip.setAttribute('class', 'tooltip');
-            tooltip.innerHTML = emoji.aliases.join('<br/>');
-            column.appendChild(tooltip);
+                const column = document.createElement('div');
+                column.setAttribute('class', 'column');
 
-            container.appendChild(column);
+                const img = document.createElement('img');
+                img.setAttribute('src', emoji.file);
+                column.appendChild(img);
+
+                const tooltip = document.createElement('span');
+                tooltip.setAttribute('class', 'tooltip');
+                tooltip.innerHTML = emoji.aliases.join('<br/>');
+                column.appendChild(tooltip);
+
+                container.appendChild(column);
+              }
+
+              startingAt += 100;
+            };
+          })();
+
+          renderEmoji();
+
+          let nextScrollLoad =
+            0.9 * (container.scrollHeight - container.offsetHeight);
+
+          container.addEventListener('scroll', () => {
+            if (container.scrollTop > nextScrollLoad) {
+              renderEmoji();
+              nextScrollLoad =
+                container.scrollHeight - container.offsetHeight - 200;
+            }
           });
-        }
-      };
-      xhr.open('GET', 'meta.json', true);
-      xhr.send();
+        });
     </script>
   </body>
 </html>
