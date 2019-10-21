@@ -145,32 +145,22 @@
         }, 10000);
       };
 
-      const xhr = new XMLHttpRequest();
-      xhr.onreadystatechange = function() {
-        if (xhr.readyState === 4) {
-          getEmoji(JSON.parse(xhr.response));
+      fetch('emoji.json')
+        .then(response => response.json())
+        .then(emoji => {
+          getEmoji(emoji);
           goEmoji();
-        }
-      };
-      xhr.open('GET', 'emoji.json', true);
-      xhr.send();
+        });
 
-      const xhr2 = new XMLHttpRequest();
-      xhr2.onreadystatechange = () => {
-        if (xhr2.readyState === 4) {
-          goGiraffes(
-            JSON.parse(
-              atob(JSON.parse(xhr2.response).content.replace('\\n', ''))
-            )
-          );
-        }
-      };
-      xhr2.open(
-        'GET',
-        'https://api.github.com/repos/18F/18f-bot-facts/contents/giraffes.json',
-        true
-      );
-      xhr2.send();
+      fetch(
+        'https://api.github.com/repos/18F/18f-bot-facts/contents/giraffes.json'
+      )
+        .then(response => {
+          return response.json();
+        })
+        .then(facts => {
+          goGiraffes(JSON.parse(atob(facts.content.replace('\\n', ''))));
+        });
     </script>
   </body>
 </html>
