@@ -1,49 +1,71 @@
-let emojiSize = 0;
-
 const frameLoop = () => {
-  const imgs = Array.from(document.querySelectorAll('[data-frames]'));
-  imgs.forEach(img => {
-    const imgFrames = +img.getAttribute('data-frames');
-    const flips = +img.getAttribute('data-flip');
+  const emojis = Array.from(document.querySelectorAll('[data-frames]'));
+  emojis.forEach(emoji => {
+    const imgFrames = +emoji.getAttribute('data-frames');
+    const flips = +emoji.getAttribute('data-flip');
 
     const flipping = imgFrames === 0;
 
     if (flipping) {
-      img.setAttribute('class', 'flip');
-      img.setAttribute('data-flip', flips - 1);
+      emoji.setAttribute('class', 'img flip');
+      emoji.setAttribute('data-flip', flips - 1);
 
       if (flips === 2) {
-        img.setAttribute(
-          'style',
-          `width: ${emojiSize}px; height: ${emojiSize}px; background: url(${getEmoji()}); background-size: contain; background-position: center center; background-repeat: no-repeat;`
-        );
+        emoji.setAttribute('style', `background-image: url(${getEmoji()});`);
       } else if (flips === 0) {
-        img.setAttribute('class', '');
-        img.setAttribute('data-flip', 4);
-        img.setAttribute('data-frames', 15 + Math.floor(Math.random() * 25));
+        emoji.setAttribute('class', 'img');
+        emoji.setAttribute('data-flip', 4);
+        emoji.setAttribute('data-frames', 15 + Math.floor(Math.random() * 25));
       }
     } else {
-      img.setAttribute('data-frames', imgFrames - 1);
+      emoji.setAttribute('data-frames', imgFrames - 1);
     }
   });
 };
 
-// Also required externally. No arguments.
+// Required externally. No arguments.
 const goEmoji = () => {
-  emojiSize = Math.floor(window.innerWidth / 20);
+  const numberOfEmojiPerRow = 10;
+  const emojiSize = Math.floor(window.innerWidth / numberOfEmojiPerRow);
   const area = window.innerHeight * window.innerWidth;
-  const emojiCount = 20 + area / (emojiSize * emojiSize);
+
+  // Throw in an extra row's worth of emoji to account for rounding, so
+  // that we cover the entire vertical space.
+  const emojiCount = numberOfEmojiPerRow + area / (emojiSize * emojiSize);
+
+  // But don't allow scrolling. Just cut those extra emoji off.
+  document.body.setAttribute('style', 'overflow-y: hidden;');
 
   const facts = document.getElementById('giraffe_fact');
   facts.setAttribute(
     'style',
-    'text-shadow: -1px -1px 0px black, -1px 1px 0px black, 1px -1px 0px black, 1px 1px 0px black, 0 0 20px black; color: white;'
+    `text-shadow: -1px -1px 0px black,
+                  -1px 1px 0px black,
+                   1px -1px 0px black,
+                   1px 1px 0px black,
+                   0 0 20px black;
+    color: white;`
   );
 
-  document.body.setAttribute('style', 'overflow-y: hidden;');
-
   addCSSRule(
-    '.img_grid { display: flex; flex-wrap: wrap; justify-content: space-around; overflow-y: hidden; }'
+    `.img_grid {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        overflow-y: hidden;
+      }`
+  );
+  addCSSRule(
+    `.img_grid .img {
+      width: ${emojiSize}px;
+      height: ${emojiSize}px;
+      background-size: contain;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }`
   );
   addCSSRule(
     `@keyframes img-flip {
@@ -61,7 +83,10 @@ const goEmoji = () => {
     }`
   );
   addCSSRule(
-    'div.flip { animation-name: img-flip; animation-duration: 400ms; }'
+    `div.flip {
+      animation-name: img-flip;
+      animation-duration: 400ms;
+    }`
   );
 
   const grid = document.createElement('div');
@@ -69,19 +94,13 @@ const goEmoji = () => {
   document.body.appendChild(grid);
 
   for (let i = 0; i < emojiCount; i++) {
-    const imgContainer = document.createElement('div');
-    imgContainer.setAttribute(
-      'style',
-      `width: ${emojiSize}px; height: ${emojiSize}px; background: url(${getEmoji()}); background-size: contain; background-position: center center; background-repeat: no-repeat;`
-    );
-    imgContainer.setAttribute('src', getEmoji());
-    imgContainer.setAttribute(
-      'data-frames',
-      15 + Math.floor(Math.random() * 25)
-    );
-    imgContainer.setAttribute('data-flip', 4);
+    const emoji = document.createElement('div');
+    emoji.setAttribute('class', 'img');
+    emoji.setAttribute('style', `background-image: url(${getEmoji()});`);
+    emoji.setAttribute('data-frames', 15 + Math.floor(Math.random() * 25));
+    emoji.setAttribute('data-flip', 4);
 
-    grid.appendChild(imgContainer);
+    grid.appendChild(emoji);
   }
 
   setInterval(frameLoop, 100);
