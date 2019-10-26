@@ -1,9 +1,3 @@
-// getEmoji() is used externally and takes the full list of emoji
-// as its first argument
-let getEmoji = emojiArray => {
-  getEmoji = () => emojiArray[Math.floor(Math.random() * emojiArray.length)];
-};
-
 const oneOrTheOther = () => !!Math.round(Math.random());
 
 const moveDirection = {
