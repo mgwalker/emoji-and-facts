@@ -64,7 +64,7 @@ const moveEmoji = () => {
     domEmoji.style.top = `${top + deltaY}px`;
 
     if (moves >= 50) {
-      domEmoji.setAttribute('data-direction', direction + (90 % 360));
+      domEmoji.setAttribute('data-direction', (direction + 90) % 360);
       domEmoji.setAttribute('data-moves', 0);
     } else {
       domEmoji.setAttribute('data-moves', moves + 1);
