@@ -4552,6 +4552,12 @@
     ],
     "file": "emoji/delaware.jpg"
   },
+  "delete": {
+    "aliases": [
+      "delete"
+    ],
+    "file": "emoji/delete.png"
+  },
   "delorean": {
     "aliases": [
       "bttf",
@@ -5461,6 +5467,12 @@
     ],
     "file": "emoji/electric_love.gif"
   },
+  "elf-will-ferrell": {
+    "aliases": [
+      "elf-will-ferrell"
+    ],
+    "file": "emoji/elf-will-ferrell.png"
+  },
   "eligibility-apis-initiative": {
     "aliases": [
       "eligibility-apis-initiative"
@@ -5814,6 +5826,12 @@
       "fajitas"
     ],
     "file": "emoji/fajitas.jpg"
+  },
+  "fakema": {
+    "aliases": [
+      "fakema"
+    ],
+    "file": "emoji/fakema.png"
   },
   "falcor": {
     "aliases": [
@@ -6908,6 +6926,12 @@
     ],
     "file": "emoji/glue.png"
   },
+  "gm": {
+    "aliases": [
+      "gm"
+    ],
+    "file": "emoji/gm.png"
+  },
   "gnome": {
     "aliases": [
       "david_the_gnome",
@@ -7647,6 +7671,12 @@
     ],
     "file": "emoji/halloween-michael-meyers.png"
   },
+  "halo-sword": {
+    "aliases": [
+      "halo-sword"
+    ],
+    "file": "emoji/halo-sword.png"
+  },
   "halp": {
     "aliases": [
       "halp"
@@ -8103,6 +8133,18 @@
       "high_five"
     ],
     "file": "emoji/high_five.png"
+  },
+  "hindenberg": {
+    "aliases": [
+      "hindenberg"
+    ],
+    "file": "emoji/hindenberg.jpg"
+  },
+  "hindenburg": {
+    "aliases": [
+      "hindenburg"
+    ],
+    "file": "emoji/hindenburg.jpg"
   },
   "hipmunk": {
     "aliases": [
@@ -17709,6 +17751,12 @@
     ],
     "file": "emoji/tcb.jpg"
   },
+  "teabag": {
+    "aliases": [
+      "teabag"
+    ],
+    "file": "emoji/teabag.png"
+  },
   "teamdevil": {
     "aliases": [
       "teamdevil"
@@ -17799,6 +17847,12 @@
       "tenders"
     ],
     "file": "emoji/tenders.png"
+  },
+  "tennessee": {
+    "aliases": [
+      "tennessee"
+    ],
+    "file": "emoji/tennessee.png"
   },
   "tequila": {
     "aliases": [
@@ -19236,6 +19290,12 @@
     ],
     "file": "emoji/under_construction.gif"
   },
+  "underdog": {
+    "aliases": [
+      "underdog"
+    ],
+    "file": "emoji/underdog.png"
+  },
   "understandable": {
     "aliases": [
       "understandable"
@@ -19395,6 +19455,12 @@
       "uss-enterprise"
     ],
     "file": "emoji/uss-enterprise.png"
+  },
+  "ustaxcourt": {
+    "aliases": [
+      "ustaxcourt"
+    ],
+    "file": "emoji/ustaxcourt.png"
   },
   "uswds-2": {
     "aliases": [
