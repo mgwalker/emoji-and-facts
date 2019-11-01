@@ -2901,6 +2901,12 @@
     ],
     "file": "emoji/caterpillar.png"
   },
+  "catnip": {
+    "aliases": [
+      "catnip"
+    ],
+    "file": "emoji/catnip.png"
+  },
   "cats": {
     "aliases": [
       "cats"
@@ -3852,6 +3858,12 @@
       "costanza"
     ],
     "file": "emoji/costanza.png"
+  },
+  "count-chocula": {
+    "aliases": [
+      "count-chocula"
+    ],
+    "file": "emoji/count-chocula.png"
   },
   "count": {
     "aliases": [
@@ -5247,6 +5259,12 @@
     ],
     "file": "emoji/drupal.png"
   },
+  "dtmo": {
+    "aliases": [
+      "dtmo"
+    ],
+    "file": "emoji/dtmo.png"
+  },
   "duckhuntdog": {
     "aliases": [
       "duckhuntdog"
@@ -6058,6 +6076,12 @@
       "figma"
     ],
     "file": "emoji/figma.png"
+  },
+  "fin-end": {
+    "aliases": [
+      "fin-end"
+    ],
+    "file": "emoji/fin-end.png"
   },
   "financialpegasys": {
     "aliases": [
@@ -8641,6 +8665,13 @@
     ],
     "file": "emoji/i-like-turtles2.png"
   },
+  "i-love-it-when-a-plan-comes-together": {
+    "aliases": [
+      "hannibal",
+      "i-love-it-when-a-plan-comes-together"
+    ],
+    "file": "emoji/i-love-it-when-a-plan-comes-together.jpg"
+  },
   "i-miss-my-uncle-charles-yall": {
     "aliases": [
       "i-miss-my-uncle-charles-yall"
@@ -10905,9 +10936,9 @@
     ],
     "file": "emoji/margarita.jpg"
   },
-  "marge-chanel": {
+  "marge-chanel.png": {
     "aliases": [
-      "marge-chanel"
+      "marge-chanel.png"
     ],
     "file": "emoji/marge-chanel.png"
   },
@@ -13624,6 +13655,12 @@
       "pentagram"
     ],
     "file": "emoji/pentagram.png"
+  },
+  "peoria-illinois": {
+    "aliases": [
+      "peoria-illinois"
+    ],
+    "file": "emoji/peoria-illinois.png"
   },
   "pepsi-golden-ratio": {
     "aliases": [
@@ -16980,6 +17017,12 @@
     ],
     "file": "emoji/splat-kirby.png"
   },
+  "splat": {
+    "aliases": [
+      "splat"
+    ],
+    "file": "emoji/splat.jpg"
+  },
   "spoilers": {
     "aliases": [
       "spoilers"
@@ -18719,6 +18762,12 @@
       "too_much_tuna"
     ],
     "file": "emoji/too_much_tuna.jpg"
+  },
+  "toothless": {
+    "aliases": [
+      "toothless"
+    ],
+    "file": "emoji/toothless.png"
   },
   "topgun": {
     "aliases": [
