@@ -1,4 +1,3 @@
-const cp = require('child_process');
 const fs = require('fs');
 const https = require('https');
 const path = require('path');
@@ -7,9 +6,47 @@ const readline = require('readline').createInterface({
   output: process.stdout
 });
 
-// Expects imgcat in order to work:
-// brew install imgcat
-// and a terminal that supports it
+// Works best in iTerm 2.9 or higher, but whatever!
+
+const draw = (() => {
+  const fallback = async () => {
+    console.log(`(Can't draw emoji - need iTerm 2.9 or higher!)`);
+  };
+
+  if (process.env.TERM_PROGRAM !== 'iTerm.app') {
+    return fallback;
+  }
+  const version = process.env.TERM_PROGRAM_VERSION;
+  if (version) {
+    const bits = version.split('.').map(Number);
+    if (bits[0] < 2) {
+      return fallback;
+    }
+    if (bits[0] === 2 && bits[1] < 9) {
+      return fallback;
+    }
+  }
+
+  return async url =>
+    new Promise(resolve => {
+      const esc = '\u001B]1337;File=inline=1:';
+      const bel = `\u0007`;
+
+      let img = '';
+      https.get(url, res => {
+        res.setEncoding('base64');
+
+        res.on('data', d => {
+          img += d;
+        });
+
+        res.on('end', a => {
+          console.log(`${esc}${img}${bel}`);
+          resolve();
+        });
+      });
+    });
+})();
 
 // Get the list of emoji to be excluded
 const ignore = require('./ignore.json');
@@ -29,11 +66,9 @@ const newEmoji = all
 
 // Prompt the user about whether to keep a particular emoji
 const shouldKeep = async emoji =>
-  new Promise(resolve => {
+  new Promise(async resolve => {
     console.log(`Here's a new emoji called "${emoji.name}":`);
-    cp.execSync(`curl -s ${emoji.url} | imgcat`, {
-      stdio: [null, process.stdout]
-    });
+    await draw(emoji.url);
 
     readline.question('Do you want to keep this one? [y/N] ', yn => {
       resolve(/^y/i.test(yn));
