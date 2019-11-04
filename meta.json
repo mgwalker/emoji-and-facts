@@ -3694,6 +3694,12 @@
     ],
     "file": "emoji/coming-soon.jpg"
   },
+  "coming-to-america": {
+    "aliases": [
+      "coming-to-america"
+    ],
+    "file": "emoji/coming-to-america.jpg"
+  },
   "comma": {
     "aliases": [
       "apostrophe",
@@ -4569,6 +4575,12 @@
       "delete"
     ],
     "file": "emoji/delete.png"
+  },
+  "dell": {
+    "aliases": [
+      "dell"
+    ],
+    "file": "emoji/dell.png"
   },
   "delorean": {
     "aliases": [
@@ -7975,6 +7987,12 @@
       "hearhear"
     ],
     "file": "emoji/hearhear.png"
+  },
+  "heart-explode": {
+    "aliases": [
+      "heart-explode"
+    ],
+    "file": "emoji/heart-explode.jpg"
   },
   "heart-hand-left": {
     "aliases": [
