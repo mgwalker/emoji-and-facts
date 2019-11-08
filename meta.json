@@ -3805,6 +3805,12 @@
     ],
     "file": "emoji/cool-lawyer.jpg"
   },
+  "cool-s": {
+    "aliases": [
+      "cool-s"
+    ],
+    "file": "emoji/cool-s.png"
+  },
   "cool-wall-lean": {
     "aliases": [
       "cool-wall-lean"
@@ -7988,6 +7994,24 @@
     ],
     "file": "emoji/hearhear.png"
   },
+  "hearse-bounce": {
+    "aliases": [
+      "hearse-bounce"
+    ],
+    "file": "emoji/hearse-bounce.gif"
+  },
+  "hearse-spin": {
+    "aliases": [
+      "hearse-spin"
+    ],
+    "file": "emoji/hearse-spin.gif"
+  },
+  "hearse": {
+    "aliases": [
+      "hearse"
+    ],
+    "file": "emoji/hearse.png"
+  },
   "heart-explode": {
     "aliases": [
       "heart-explode"
@@ -10316,6 +10340,12 @@
     ],
     "file": "emoji/lets-do-the-time-warp.png"
   },
+  "letter-n": {
+    "aliases": [
+      "letter-n"
+    ],
+    "file": "emoji/letter-n.png"
+  },
   "lgtm": {
     "aliases": [
       "lgtm"
@@ -10954,12 +10984,6 @@
     ],
     "file": "emoji/margarita.jpg"
   },
-  "marge-chanel.png": {
-    "aliases": [
-      "marge-chanel.png"
-    ],
-    "file": "emoji/marge-chanel.png"
-  },
   "marie-kondo": {
     "aliases": [
       "marie-kondo"
@@ -11144,6 +11168,12 @@
       "me-too"
     ],
     "file": "emoji/me-too.png"
+  },
+  "me": {
+    "aliases": [
+      "me"
+    ],
+    "file": "emoji/me.png"
   },
   "meatwad": {
     "aliases": [
@@ -13978,12 +14008,6 @@
     ],
     "file": "emoji/pixarwoody.jpg"
   },
-  "pixie.png": {
-    "aliases": [
-      "pixie.png"
-    ],
-    "file": "emoji/pixie.png"
-  },
   "pizza-my-heart": {
     "aliases": [
       "pizza-my-heart"
@@ -14411,6 +14435,12 @@
       "prongles"
     ],
     "file": "emoji/prongles.png"
+  },
+  "propeller-hat": {
+    "aliases": [
+      "propeller-hat"
+    ],
+    "file": "emoji/propeller-hat.jpg"
   },
   "protest": {
     "aliases": [
@@ -14841,6 +14871,12 @@
       "rainier-wolfcastle"
     ],
     "file": "emoji/rainier-wolfcastle.png"
+  },
+  "raisins": {
+    "aliases": [
+      "raisins"
+    ],
+    "file": "emoji/raisins.png"
   },
   "ralph-wiggum": {
     "aliases": [
@@ -16819,6 +16855,12 @@
       "solidarity"
     ],
     "file": "emoji/solidarity.jpg"
+  },
+  "solutions": {
+    "aliases": [
+      "solutions"
+    ],
+    "file": "emoji/solutions.jpg"
   },
   "solve": {
     "aliases": [
@@ -19115,6 +19157,12 @@
       "tsp"
     ],
     "file": "emoji/tsp.png"
+  },
+  "tts-solutions": {
+    "aliases": [
+      "tts-solutions"
+    ],
+    "file": "emoji/tts-solutions.jpg"
   },
   "tts": {
     "aliases": [

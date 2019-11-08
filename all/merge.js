@@ -100,7 +100,11 @@ const promptAboutAllTheEmoji = async () => {
   let index = 0;
   while (index < newEmoji.length) {
     if (index > 0) {
-      console.log('\n═════════════════════════════════════════════════\n');
+      console.log(
+        `\n════ ${index + 1} of ${
+          newEmoji.length
+        } ══════════════════════════════════════\n`
+      );
     }
 
     const emoji = newEmoji[index];
