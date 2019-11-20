@@ -865,7 +865,8 @@
   },
   "angrytock": {
     "aliases": [
-      "angrytock"
+      "angrytock",
+      "ticked-tock"
     ],
     "file": "emoji/angrytock.png"
   },
@@ -2210,6 +2211,12 @@
     ],
     "file": "emoji/brawndo-the-thirst-mutilator.png"
   },
+  "breakfast-club": {
+    "aliases": [
+      "breakfast-club"
+    ],
+    "file": "emoji/breakfast-club.jpg"
+  },
   "breathe": {
     "aliases": [
       "breathe"
@@ -2313,6 +2320,12 @@
       "buckeye_leaf"
     ],
     "file": "emoji/buckeye_leaf.jpg"
+  },
+  "budget-dust": {
+    "aliases": [
+      "budget-dust"
+    ],
+    "file": "emoji/budget-dust.jpg"
   },
   "bueller-bueller": {
     "aliases": [
@@ -3282,6 +3295,12 @@
     ],
     "file": "emoji/chonk.jpg"
   },
+  "christopher-elbow-chocolates": {
+    "aliases": [
+      "christopher-elbow-chocolates"
+    ],
+    "file": "emoji/christopher-elbow-chocolates.jpg"
+  },
   "chrome": {
     "aliases": [
       "chrome"
@@ -3586,6 +3605,12 @@
     ],
     "file": "emoji/code-review.png"
   },
+  "codemash": {
+    "aliases": [
+      "codemash"
+    ],
+    "file": "emoji/codemash.png"
+  },
   "coding-it-forward": {
     "aliases": [
       "coding-it-forward"
@@ -3774,6 +3799,13 @@
       "connery"
     ],
     "file": "emoji/connery.png"
+  },
+  "conspiracy": {
+    "aliases": [
+      "conspiracy",
+      "pepe-silvia"
+    ],
+    "file": "emoji/conspiracy.jpg"
   },
   "consulting": {
     "aliases": [
@@ -5527,6 +5559,13 @@
     ],
     "file": "emoji/ellipses.png"
   },
+  "elmer-fudd": {
+    "aliases": [
+      "elmer-fudd",
+      "hunting-wabbits"
+    ],
+    "file": "emoji/elmer-fudd.png"
+  },
   "elote": {
     "aliases": [
       "elote"
@@ -6717,6 +6756,12 @@
       "gem-dropping"
     ],
     "file": "emoji/gem-dropping.png"
+  },
+  "gen-x": {
+    "aliases": [
+      "gen-x"
+    ],
+    "file": "emoji/gen-x.png"
   },
   "genderqueer-pride": {
     "aliases": [
@@ -10321,6 +10366,12 @@
       "lemming"
     ],
     "file": "emoji/lemming.gif"
+  },
+  "lemongrab-unacceptable": {
+    "aliases": [
+      "lemongrab-unacceptable"
+    ],
+    "file": "emoji/lemongrab-unacceptable.jpg"
   },
   "lemur": {
     "aliases": [
@@ -16279,6 +16330,12 @@
     ],
     "file": "emoji/shit-funnel.png"
   },
+  "shockedandchagrined": {
+    "aliases": [
+      "shockedandchagrined"
+    ],
+    "file": "emoji/shockedandchagrined.jpg"
+  },
   "shooter-mcgavin": {
     "aliases": [
       "shooter-mcgavin"
@@ -17500,6 +17557,12 @@
     ],
     "file": "emoji/super-size.png"
   },
+  "super-squirrel": {
+    "aliases": [
+      "super-squirrel"
+    ],
+    "file": "emoji/super-squirrel.jpg"
+  },
   "superbowl-shark": {
     "aliases": [
       "superbowl-shark"
@@ -18716,11 +18779,11 @@
     ],
     "file": "emoji/tobias-funke.png"
   },
-  "tobias_fünke": {
+  "tobias_fünke.jpg": {
     "aliases": [
-      "tobias_fünke"
+      "tobias_fünke.jpg"
     ],
-    "file": "emoji/tobias_fünke.jpg"
+    "file": "emoji/tobias_fünke.jpg"
   },
   "tock-is-down": {
     "aliases": [
