@@ -11427,6 +11427,12 @@
     ],
     "file": "emoji/midas.png"
   },
+  "midwest": {
+    "aliases": [
+      "midwest"
+    ],
+    "file": "emoji/midwest.png"
+  },
   "milhouse": {
     "aliases": [
       "milhouse"
@@ -20388,6 +20394,7 @@
   "wile-e-coyote-genius": {
     "aliases": [
       "super-genius",
+      "supergenius",
       "wile-e-coyote-genius"
     ],
     "file": "emoji/wile-e-coyote-genius.jpg"
