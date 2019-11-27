@@ -4950,6 +4950,12 @@
     ],
     "file": "emoji/docker.png"
   },
+  "doctor-who-13": {
+    "aliases": [
+      "doctor-who-13"
+    ],
+    "file": "emoji/doctor-who-13.jpg"
+  },
   "dodo": {
     "aliases": [
       "dodo"
@@ -5237,6 +5243,7 @@
   },
   "dr-who-new": {
     "aliases": [
+      "doctor-who-12",
       "dr-who-new"
     ],
     "file": "emoji/dr-who-new.png"
@@ -9550,6 +9557,12 @@
       "jinxy-dag"
     ],
     "file": "emoji/jinxy-dag.png"
+  },
+  "joan-jett": {
+    "aliases": [
+      "joan-jett"
+    ],
+    "file": "emoji/joan-jett.png"
   },
   "joffrey": {
     "aliases": [
