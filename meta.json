@@ -10752,6 +10752,12 @@
     ],
     "file": "emoji/lucille-bluth.png"
   },
+  "lucky-cat": {
+    "aliases": [
+      "lucky-cat"
+    ],
+    "file": "emoji/lucky-cat.png"
+  },
   "luckycharms": {
     "aliases": [
       "luckycharms"
@@ -16556,6 +16562,12 @@
       "single-pane-of-glass"
     ],
     "file": "emoji/single-pane-of-glass.jpg"
+  },
+  "sir-didymus": {
+    "aliases": [
+      "sir-didymus"
+    ],
+    "file": "emoji/sir-didymus.png"
   },
   "sir-topham-hatt": {
     "aliases": [
