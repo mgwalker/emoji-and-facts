@@ -8031,6 +8031,12 @@
     ],
     "file": "emoji/harry-caray2.png"
   },
+  "harry-henderson": {
+    "aliases": [
+      "harry-henderson"
+    ],
+    "file": "emoji/harry-henderson.jpg"
+  },
   "hat": {
     "aliases": [
       "hat"
@@ -9653,6 +9659,12 @@
       "john-denver"
     ],
     "file": "emoji/john-denver.png"
+  },
+  "johnny-appleseed": {
+    "aliases": [
+      "johnny-appleseed"
+    ],
+    "file": "emoji/johnny-appleseed.png"
   },
   "johnny-cash": {
     "aliases": [
@@ -14656,6 +14668,12 @@
       "pterodactyl"
     ],
     "file": "emoji/pterodactyl.jpg"
+  },
+  "public-sans": {
+    "aliases": [
+      "public-sans"
+    ],
+    "file": "emoji/public-sans.png"
   },
   "puffy-shirt": {
     "aliases": [
