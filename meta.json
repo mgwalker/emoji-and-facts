@@ -36,6 +36,12 @@
     ],
     "file": "emoji/4300.png"
   },
+  "4501": {
+    "aliases": [
+      "4501"
+    ],
+    "file": "emoji/4501.png"
+  },
   "90210": {
     "aliases": [
       "90210"
@@ -1029,6 +1035,13 @@
       "arya"
     ],
     "file": "emoji/arya.jpg"
+  },
+  "as-you-wish": {
+    "aliases": [
+      "as-you-wish",
+      "farm-boy"
+    ],
+    "file": "emoji/as-you-wish.jpg"
   },
   "ask-marietta": {
     "aliases": [
@@ -8905,6 +8918,12 @@
     ],
     "file": "emoji/ice-gritty.png"
   },
+  "ice-ice-baby": {
+    "aliases": [
+      "ice-ice-baby"
+    ],
+    "file": "emoji/ice-ice-baby.jpg"
+  },
   "ice-king-carrot": {
     "aliases": [
       "ice-king-carrot"
@@ -12349,6 +12368,14 @@
     ],
     "file": "emoji/nekonap.jpg"
   },
+  "nelson": {
+    "aliases": [
+      "ha-ha",
+      "nelson",
+      "shadenfreude"
+    ],
+    "file": "emoji/nelson.png"
+  },
   "neo-matrix": {
     "aliases": [
       "neo-matrix"
@@ -13973,6 +14000,12 @@
       "phoebe-terese-magic-school-bus"
     ],
     "file": "emoji/phoebe-terese-magic-school-bus.png"
+  },
+  "phoenix-suns": {
+    "aliases": [
+      "phoenix-suns"
+    ],
+    "file": "emoji/phoenix-suns.png"
   },
   "phoenix": {
     "aliases": [
@@ -15625,6 +15658,13 @@
       "youcandoit"
     ],
     "file": "emoji/rosie_the_riveter.jpg"
+  },
+  "roy-orbison": {
+    "aliases": [
+      "roy-orbison",
+      "you-got-it"
+    ],
+    "file": "emoji/roy-orbison.jpg"
   },
   "royals": {
     "aliases": [
