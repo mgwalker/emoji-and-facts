@@ -75,8 +75,13 @@
         }, 10000);
       };
 
-      const scriptCount = 6;
-      const script = Math.floor(Math.random() * scriptCount + 1);
+      const requestedScript = +window.location.hash.replace('#', '');
+
+      const scriptCount = 7;
+      const script =
+        requestedScript > 0 && requestedScript <= scriptCount
+          ? requestedScript
+          : Math.floor(Math.random() * scriptCount + 1);
       const moverScript = document.createElement('script');
       moverScript.setAttribute('type', 'text/javascript');
       document.body.appendChild(moverScript);
