@@ -3949,6 +3949,14 @@
     ],
     "file": "emoji/copypaste.gif"
   },
+  "cornucopia": {
+    "aliases": [
+      "cornucopia",
+      "horn-o-plenty",
+      "horn-of-plenty"
+    ],
+    "file": "emoji/cornucopia.png"
+  },
   "corny": {
     "aliases": [
       "corny"
@@ -5224,6 +5232,12 @@
     ],
     "file": "emoji/doomtree.png"
   },
+  "doop": {
+    "aliases": [
+      "doop"
+    ],
+    "file": "emoji/doop.png"
+  },
   "dora-the-explorer": {
     "aliases": [
       "dora-the-explorer"
@@ -6335,6 +6349,12 @@
       "firehose"
     ],
     "file": "emoji/firehose.png"
+  },
+  "fireplace": {
+    "aliases": [
+      "fireplace"
+    ],
+    "file": "emoji/fireplace.gif"
   },
   "fisi": {
     "aliases": [
@@ -11531,6 +11551,12 @@
     ],
     "file": "emoji/mesopurchase.jpg"
   },
+  "meta": {
+    "aliases": [
+      "meta"
+    ],
+    "file": "emoji/meta.png"
+  },
   "metal": {
     "aliases": [
       "metal"
@@ -12000,6 +12026,12 @@
       "mr-larson"
     ],
     "file": "emoji/mr-larson.png"
+  },
+  "mr-potato-head": {
+    "aliases": [
+      "mr-potato-head"
+    ],
+    "file": "emoji/mr-potato-head.png"
   },
   "mr-t-pity-the-fool": {
     "aliases": [
