@@ -3347,6 +3347,12 @@
     ],
     "file": "emoji/chips-and-salsa.gif"
   },
+  "chobani-greek-yogurt": {
+    "aliases": [
+      "chobani-greek-yogurt"
+    ],
+    "file": "emoji/chobani-greek-yogurt.png"
+  },
   "chonk": {
     "aliases": [
       "chonk"
@@ -5559,6 +5565,12 @@
       "easy_button"
     ],
     "file": "emoji/easy_button.jpg"
+  },
+  "eating-junk-and-watching-rubbish": {
+    "aliases": [
+      "eating-junk-and-watching-rubbish"
+    ],
+    "file": "emoji/eating-junk-and-watching-rubbish.jpg"
   },
   "eatmyshorts": {
     "aliases": [
@@ -7849,6 +7861,12 @@
       "hacker2"
     ],
     "file": "emoji/hacker2.png"
+  },
+  "hackeysack": {
+    "aliases": [
+      "hackeysack"
+    ],
+    "file": "emoji/hackeysack.png"
   },
   "hadoken-left": {
     "aliases": [
@@ -11801,6 +11819,12 @@
       "mr-rogers"
     ],
     "file": "emoji/misterrogers.jpg"
+  },
+  "mixed-emotions-club": {
+    "aliases": [
+      "mixed-emotions-club"
+    ],
+    "file": "emoji/mixed-emotions-club.png"
   },
   "mizzou": {
     "aliases": [
@@ -20309,6 +20333,13 @@
       "wasp"
     ],
     "file": "emoji/wasp.jpg"
+  },
+  "watch-me-pull-a-rabbit-out-of-my-hat": {
+    "aliases": [
+      "this-time-for-sure",
+      "watch-me-pull-a-rabbit-out-of-my-hat"
+    ],
+    "file": "emoji/watch-me-pull-a-rabbit-out-of-my-hat.png"
   },
   "watch-out": {
     "aliases": [
