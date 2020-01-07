@@ -7581,6 +7581,12 @@
     ],
     "file": "emoji/great-question.png"
   },
+  "great-white-north": {
+    "aliases": [
+      "great-white-north"
+    ],
+    "file": "emoji/great-white-north.png"
+  },
   "great-work": {
     "aliases": [
       "great-work"
@@ -10174,6 +10180,12 @@
     ],
     "file": "emoji/ketchup.jpg"
   },
+  "kevin-home-alone-scream": {
+    "aliases": [
+      "kevin-home-alone-scream"
+    ],
+    "file": "emoji/kevin-home-alone-scream.png"
+  },
   "kevin-the-flag": {
     "aliases": [
       "kevin-the-flag"
@@ -11347,6 +11359,12 @@
       "mary_poppins"
     ],
     "file": "emoji/mary_poppins.jpg"
+  },
+  "maryberry": {
+    "aliases": [
+      "maryberry"
+    ],
+    "file": "emoji/maryberry.jpg"
   },
   "maryland_flag": {
     "aliases": [
@@ -12657,6 +12675,12 @@
       "nin"
     ],
     "file": "emoji/nin.png"
+  },
+  "ninja-moves": {
+    "aliases": [
+      "ninja-moves"
+    ],
+    "file": "emoji/ninja-moves.gif"
   },
   "ninja": {
     "aliases": [
@@ -20224,6 +20248,12 @@
     ],
     "file": "emoji/w-train.png"
   },
+  "wa-state": {
+    "aliases": [
+      "wa-state"
+    ],
+    "file": "emoji/wa-state.png"
+  },
   "waffle": {
     "aliases": [
       "waffle"
@@ -20277,6 +20307,12 @@
       "wally-brando"
     ],
     "file": "emoji/wally-brando.png"
+  },
+  "walrus": {
+    "aliases": [
+      "walrus"
+    ],
+    "file": "emoji/walrus.png"
   },
   "walter-sobchak": {
     "aliases": [
@@ -21578,6 +21614,12 @@
       "zombie-walk"
     ],
     "file": "emoji/zombie-walk.png"
+  },
+  "zombie-walking": {
+    "aliases": [
+      "zombie-walking"
+    ],
+    "file": "emoji/zombie-walking.gif"
   },
   "zombo": {
     "aliases": [
