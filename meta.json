@@ -695,6 +695,12 @@
     ],
     "file": "emoji/all-fixed.jpg"
   },
+  "all-i-do-is-win-win-win": {
+    "aliases": [
+      "all-i-do-is-win-win-win"
+    ],
+    "file": "emoji/all-i-do-is-win-win-win.jpg"
+  },
   "all-show-no-substance": {
     "aliases": [
       "all-show-no-substance"
@@ -2213,6 +2219,13 @@
       "book-it"
     ],
     "file": "emoji/book-it.png"
+  },
+  "boombox": {
+    "aliases": [
+      "boombox",
+      "say-anything"
+    ],
+    "file": "emoji/boombox.png"
   },
   "boomerang": {
     "aliases": [
@@ -6666,6 +6679,12 @@
     ],
     "file": "emoji/foam-finger.png"
   },
+  "foghorn-leghorn": {
+    "aliases": [
+      "foghorn-leghorn"
+    ],
+    "file": "emoji/foghorn-leghorn.png"
+  },
   "foia-gov": {
     "aliases": [
       "foia-gov"
@@ -7956,6 +7975,12 @@
       "gtd"
     ],
     "file": "emoji/gtd.png"
+  },
+  "gucci": {
+    "aliases": [
+      "gucci"
+    ],
+    "file": "emoji/gucci.jpg"
   },
   "guess-so": {
     "aliases": [
@@ -12121,6 +12146,12 @@
     ],
     "file": "emoji/mjonir.png"
   },
+  "mlk": {
+    "aliases": [
+      "mlk"
+    ],
+    "file": "emoji/mlk.png"
+  },
   "mnftiu-office-guy": {
     "aliases": [
       "mnftiu-office-guy"
@@ -12186,6 +12217,12 @@
       "monocle"
     ],
     "file": "emoji/monocle.png"
+  },
+  "monolith": {
+    "aliases": [
+      "monolith"
+    ],
+    "file": "emoji/monolith.jpg"
   },
   "monster_truck": {
     "aliases": [
@@ -14265,6 +14302,12 @@
       "pawpaw"
     ],
     "file": "emoji/pawpaw.jpg"
+  },
+  "pbr": {
+    "aliases": [
+      "pbr"
+    ],
+    "file": "emoji/pbr.png"
   },
   "pbs": {
     "aliases": [
@@ -16408,6 +16451,12 @@
       "samhsa"
     ],
     "file": "emoji/samhsa.png"
+  },
+  "samurai": {
+    "aliases": [
+      "samurai"
+    ],
+    "file": "emoji/samurai.png"
   },
   "samwell": {
     "aliases": [
@@ -20839,6 +20888,12 @@
     ],
     "file": "emoji/we-are-not-worthy.gif"
   },
+  "we-gucci": {
+    "aliases": [
+      "we-gucci"
+    ],
+    "file": "emoji/we-gucci.jpg"
+  },
   "webcam": {
     "aliases": [
       "webcam"
@@ -21648,6 +21703,12 @@
       "yass"
     ],
     "file": "emoji/yass.png"
+  },
+  "yawn": {
+    "aliases": [
+      "yawn"
+    ],
+    "file": "emoji/yawn.gif"
   },
   "yay": {
     "aliases": [
