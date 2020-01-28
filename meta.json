@@ -2288,6 +2288,12 @@
     ],
     "file": "emoji/brain-2.jpg"
   },
+  "brain-slug": {
+    "aliases": [
+      "brain-slug"
+    ],
+    "file": "emoji/brain-slug.png"
+  },
   "brakeman": {
     "aliases": [
       "brakeman"
@@ -2371,6 +2377,12 @@
       "briefcase2"
     ],
     "file": "emoji/briefcase2.png"
+  },
+  "britney-spears-umbrella-attack": {
+    "aliases": [
+      "britney-spears-umbrella-attack"
+    ],
+    "file": "emoji/britney-spears-umbrella-attack.jpg"
   },
   "broken-record": {
     "aliases": [
@@ -8550,6 +8562,12 @@
     ],
     "file": "emoji/hellgrandcayman.jpg"
   },
+  "hello-hello-hello-echo": {
+    "aliases": [
+      "hello-hello-hello-echo"
+    ],
+    "file": "emoji/hello-hello-hello-echo.jpg"
+  },
   "hello-kitty-angry": {
     "aliases": [
       "hello-kitty-angry"
@@ -9154,6 +9172,18 @@
       "i-dont-want-the-t-shirt"
     ],
     "file": "emoji/i-dont-want-the-t-shirt.png"
+  },
+  "i-drink-your-milkshake-i-drink-it-up": {
+    "aliases": [
+      "i-drink-your-milkshake-i-drink-it-up"
+    ],
+    "file": "emoji/i-drink-your-milkshake-i-drink-it-up.jpg"
+  },
+  "i-drink-your-milkshake": {
+    "aliases": [
+      "i-drink-your-milkshake"
+    ],
+    "file": "emoji/i-drink-your-milkshake.jpg"
   },
   "i-got-you": {
     "aliases": [
@@ -12553,6 +12583,12 @@
       "my-spoon-is-too-big"
     ],
     "file": "emoji/my-spoon-is-too-big.png"
+  },
+  "my-straw-reaches-acrooooooos-the-room": {
+    "aliases": [
+      "my-straw-reaches-acrooooooos-the-room"
+    ],
+    "file": "emoji/my-straw-reaches-acrooooooos-the-room.jpg"
   },
   "mydavidindependenceday": {
     "aliases": [
@@ -17846,6 +17882,12 @@
     ],
     "file": "emoji/spike.jpg"
   },
+  "spinaltap": {
+    "aliases": [
+      "spinaltap"
+    ],
+    "file": "emoji/spinaltap.png"
+  },
   "spinning-at": {
     "aliases": [
       "spinning-at"
@@ -22114,11 +22156,29 @@
     ],
     "file": "emoji/zoom-meeting.png"
   },
+  "zorro-floor-oh": {
+    "aliases": [
+      "zorro-floor-oh"
+    ],
+    "file": "emoji/zorro-floor-oh.png"
+  },
   "zorro": {
     "aliases": [
       "zorro"
     ],
     "file": "emoji/zorro.png"
+  },
+  "zorroohoh": {
+    "aliases": [
+      "zorroohoh"
+    ],
+    "file": "emoji/zorroohoh.png"
+  },
+  "zorroohohoh": {
+    "aliases": [
+      "zorroohohoh"
+    ],
+    "file": "emoji/zorroohohoh.png"
   },
   "zune": {
     "aliases": [
