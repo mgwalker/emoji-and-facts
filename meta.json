@@ -48,6 +48,12 @@
     ],
     "file": "emoji/90210.jpg"
   },
+  "+++++1": {
+    "aliases": [
+      "+++++1"
+    ],
+    "file": "emoji/+++++1.png"
+  },
   "+++1": {
     "aliases": [
       "+++1"
@@ -59,6 +65,12 @@
       "++1"
     ],
     "file": "emoji/++1.png"
+  },
+  "+1-forever": {
+    "aliases": [
+      "+1-forever"
+    ],
+    "file": "emoji/+1-forever.gif"
   },
   "1-train": {
     "aliases": [
@@ -6276,6 +6288,12 @@
     ],
     "file": "emoji/fas.png"
   },
+  "fascinating": {
+    "aliases": [
+      "fascinating"
+    ],
+    "file": "emoji/fascinating.png"
+  },
   "fashion-police": {
     "aliases": [
       "fashion-police"
@@ -11533,6 +11551,12 @@
       "mala-mia"
     ],
     "file": "emoji/mala-mia.jpg"
+  },
+  "malort": {
+    "aliases": [
+      "malort"
+    ],
+    "file": "emoji/malort.png"
   },
   "manchine": {
     "aliases": [
@@ -17996,6 +18020,12 @@
       "srsly"
     ],
     "file": "emoji/srsly.png"
+  },
+  "stable-parrot": {
+    "aliases": [
+      "stable-parrot"
+    ],
+    "file": "emoji/stable-parrot.gif"
   },
   "staff": {
     "aliases": [

@@ -50,6 +50,11 @@
     }...`;
     page = await getPage(page.paging.page + 1);
     emoji.push(...page.emoji);
+    // need to map emoji to fix URL; hex codes get their
+    // percent signs escaped too. E.g.,
+    // https://emoji.com/%2Bhi.jpeg
+    // becomes
+    // https://emoji.com/%252Bhi.jpeg
   }
 
   banner.remove();
