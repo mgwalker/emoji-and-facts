@@ -1072,6 +1072,12 @@
     ],
     "file": "emoji/aristotle.png"
   },
+  "arizona": {
+    "aliases": [
+      "arizona"
+    ],
+    "file": "emoji/arizona.png"
+  },
   "armadillo": {
     "aliases": [
       "armadillo"
@@ -1961,6 +1967,12 @@
     ],
     "file": "emoji/bleach.png"
   },
+  "bleh": {
+    "aliases": [
+      "bleh"
+    ],
+    "file": "emoji/bleh.png"
+  },
   "blinks": {
     "aliases": [
       "blinks"
@@ -2084,7 +2096,8 @@
   },
   "blob-tada": {
     "aliases": [
-      "blob-tada"
+      "blob-tada",
+      "tada-blob"
     ],
     "file": "emoji/blob-tada.gif"
   },
@@ -4119,6 +4132,12 @@
       "corny"
     ],
     "file": "emoji/corny.jpg"
+  },
+  "corona-bottle": {
+    "aliases": [
+      "corona-bottle"
+    ],
+    "file": "emoji/corona-bottle.png"
   },
   "cortana": {
     "aliases": [
@@ -6190,6 +6209,12 @@
     ],
     "file": "emoji/eyes-bleeding.png"
   },
+  "eyetwitch": {
+    "aliases": [
+      "eyetwitch"
+    ],
+    "file": "emoji/eyetwitch.gif"
+  },
   "f-train": {
     "aliases": [
       "f-train"
@@ -6348,6 +6373,12 @@
     ],
     "file": "emoji/fashion-police.png"
   },
+  "fashionmoth": {
+    "aliases": [
+      "fashionmoth"
+    ],
+    "file": "emoji/fashionmoth.png"
+  },
   "favro": {
     "aliases": [
       "favro"
@@ -6377,6 +6408,12 @@
       "fec_ftw"
     ],
     "file": "emoji/fec_ftw.gif"
+  },
+  "federal-bureau-of-control": {
+    "aliases": [
+      "federal-bureau-of-control"
+    ],
+    "file": "emoji/federal-bureau-of-control.png"
   },
   "federalist": {
     "aliases": [
@@ -6517,6 +6554,14 @@
       "finger-guns"
     ],
     "file": "emoji/finger-guns.png"
+  },
+  "finger-wag": {
+    "aliases": [
+      "finger-wag",
+      "no-no-finger-wag",
+      "nuh-uh"
+    ],
+    "file": "emoji/finger-wag.gif"
   },
   "fingerprint": {
     "aliases": [
@@ -7712,6 +7757,12 @@
     ],
     "file": "emoji/google.png"
   },
+  "googly-eyes": {
+    "aliases": [
+      "googly-eyes"
+    ],
+    "file": "emoji/googly-eyes.gif"
+  },
   "goomba": {
     "aliases": [
       "goomba"
@@ -7993,6 +8044,12 @@
       "groovy"
     ],
     "file": "emoji/groovy.png"
+  },
+  "gross": {
+    "aliases": [
+      "gross"
+    ],
+    "file": "emoji/gross.png"
   },
   "grouch": {
     "aliases": [
@@ -8684,6 +8741,12 @@
       "lionel-ritchie"
     ],
     "file": "emoji/hello.png"
+  },
+  "hellomonday": {
+    "aliases": [
+      "hellomonday"
+    ],
+    "file": "emoji/hellomonday.gif"
   },
   "hellraiser": {
     "aliases": [
@@ -10348,6 +10411,12 @@
     ],
     "file": "emoji/justabill.jpg"
   },
+  "justice-schooner": {
+    "aliases": [
+      "justice-schooner"
+    ],
+    "file": "emoji/justice-schooner.png"
+  },
   "justice": {
     "aliases": [
       "justice"
@@ -11269,6 +11338,12 @@
       "log"
     ],
     "file": "emoji/log.png"
+  },
+  "login-dot-gov": {
+    "aliases": [
+      "login-dot-gov"
+    ],
+    "file": "emoji/login-dot-gov.png"
   },
   "login-gov": {
     "aliases": [
@@ -13049,6 +13124,12 @@
     ],
     "file": "emoji/netflix.png"
   },
+  "netlify": {
+    "aliases": [
+      "netlify"
+    ],
+    "file": "emoji/netlify.png"
+  },
   "netscape": {
     "aliases": [
       "netscape"
@@ -13453,6 +13534,12 @@
     ],
     "file": "emoji/not-eric.png"
   },
+  "not-evil-bunny": {
+    "aliases": [
+      "not-evil-bunny"
+    ],
+    "file": "emoji/not-evil-bunny.png"
+  },
   "not-gonna-do-it": {
     "aliases": [
       "dana-carvey-bush",
@@ -13779,6 +13866,12 @@
     ],
     "file": "emoji/okay2.png"
   },
+  "oklahoma": {
+    "aliases": [
+      "oklahoma"
+    ],
+    "file": "emoji/oklahoma.png"
+  },
   "okr": {
     "aliases": [
       "okr"
@@ -13951,6 +14044,7 @@
   },
   "oneteamonedream": {
     "aliases": [
+      "1team1dream",
       "oneteamonedream",
       "otod"
     ],
@@ -15734,6 +15828,12 @@
       "suggest-different-channel"
     ],
     "file": "emoji/raccoon.jpg"
+  },
+  "race-car-miata": {
+    "aliases": [
+      "race-car-miata"
+    ],
+    "file": "emoji/race-car-miata.png"
   },
   "radar": {
     "aliases": [
@@ -18840,6 +18940,12 @@
     ],
     "file": "emoji/taco-town.png"
   },
+  "tacotuesday": {
+    "aliases": [
+      "tacotuesday"
+    ],
+    "file": "emoji/tacotuesday.png"
+  },
   "take-care": {
     "aliases": [
       "take-care"
@@ -20481,6 +20587,12 @@
       "ufo"
     ],
     "file": "emoji/ufo.png"
+  },
+  "ugh": {
+    "aliases": [
+      "ugh"
+    ],
+    "file": "emoji/ugh.png"
   },
   "uh": {
     "aliases": [
