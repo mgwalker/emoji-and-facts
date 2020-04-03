@@ -108,6 +108,8 @@ const promptAboutAllTheEmoji = async () => {
     }
 
     const emoji = newEmoji[index];
+    emoji.url = emoji.url.replace('%2B', '%252B');
+
     const keep = await shouldKeep(emoji);
 
     if (keep) {
