@@ -66,6 +66,12 @@
     ],
     "file": "emoji/++1.png"
   },
+  "+0-point-5": {
+    "aliases": [
+      "+0-point-5"
+    ],
+    "file": "emoji/+0-point-5.png"
+  },
   "+0": {
     "aliases": [
       "+0"
@@ -83,6 +89,12 @@
       "+1-forever"
     ],
     "file": "emoji/+1-forever.gif"
+  },
+  "+1-ish": {
+    "aliases": [
+      "+1-ish"
+    ],
+    "file": "emoji/+1-ish.png"
   },
   "1-train": {
     "aliases": [
@@ -3335,6 +3347,19 @@
     ],
     "file": "emoji/business-goose.png"
   },
+  "business-hammerhead": {
+    "aliases": [
+      "business-hammerhead",
+      "hammerhead-shark-oh-no"
+    ],
+    "file": "emoji/business-hammerhead.png"
+  },
+  "business-shark": {
+    "aliases": [
+      "business-shark"
+    ],
+    "file": "emoji/business-shark.png"
+  },
   "business": {
     "aliases": [
       "business",
@@ -3500,6 +3525,12 @@
       "calendar-tetris"
     ],
     "file": "emoji/calendar-tetris.png"
+  },
+  "calico": {
+    "aliases": [
+      "calico"
+    ],
+    "file": "emoji/calico.png"
   },
   "california": {
     "aliases": [
@@ -7083,6 +7114,12 @@
     ],
     "file": "emoji/eapd.png"
   },
+  "eapd2": {
+    "aliases": [
+      "eapd2"
+    ],
+    "file": "emoji/eapd2.png"
+  },
   "eapp": {
     "aliases": [
       "eapp"
@@ -9742,6 +9779,12 @@
     ],
     "file": "emoji/greenlock.png"
   },
+  "greg-giraffe": {
+    "aliases": [
+      "greg-giraffe"
+    ],
+    "file": "emoji/greg-giraffe.png"
+  },
   "gremlin": {
     "aliases": [
       "gremlin",
@@ -11189,6 +11232,12 @@
       "huge-mood"
     ],
     "file": "emoji/huge-mood.png"
+  },
+  "hugging-skullface": {
+    "aliases": [
+      "hugging-skullface"
+    ],
+    "file": "emoji/hugging-skullface.png"
   },
   "hugo-app": {
     "aliases": [
@@ -13695,6 +13744,12 @@
     ],
     "file": "emoji/locusts.png"
   },
+  "locutus-of-borg": {
+    "aliases": [
+      "locutus-of-borg"
+    ],
+    "file": "emoji/locutus-of-borg.png"
+  },
   "log-cabin-in-the-woods": {
     "aliases": [
       "log-cabin-in-the-woods"
@@ -14575,6 +14630,12 @@
     ],
     "file": "emoji/mermaid-pink.png"
   },
+  "merman_zoolander": {
+    "aliases": [
+      "merman_zoolander"
+    ],
+    "file": "emoji/merman_zoolander.png"
+  },
   "merry-scrooge": {
     "aliases": [
       "merry-scrooge"
@@ -15360,6 +15421,12 @@
       "myspace"
     ],
     "file": "emoji/myspace.png"
+  },
+  "myst": {
+    "aliases": [
+      "myst"
+    ],
+    "file": "emoji/myst.jpg"
   },
   "mystery-machine": {
     "aliases": [
@@ -16555,6 +16622,12 @@
       "old-cossey-pond"
     ],
     "file": "emoji/old-cossey-pond.jpg"
+  },
+  "old-man-yells-at-cloud-animated": {
+    "aliases": [
+      "old-man-yells-at-cloud-animated"
+    ],
+    "file": "emoji/old-man-yells-at-cloud-animated.gif"
   },
   "old-man-zelda": {
     "aliases": [
@@ -19852,6 +19925,12 @@
     ],
     "file": "emoji/samelook.png"
   },
+  "samgov": {
+    "aliases": [
+      "samgov"
+    ],
+    "file": "emoji/samgov.png"
+  },
   "samhsa": {
     "aliases": [
       "samhsa"
@@ -20282,6 +20361,12 @@
       "serenity-now"
     ],
     "file": "emoji/serenity-now.png"
+  },
+  "serenity": {
+    "aliases": [
+      "serenity"
+    ],
+    "file": "emoji/serenity.png"
   },
   "setec-astronomy": {
     "aliases": [
@@ -22538,6 +22623,12 @@
     ],
     "file": "emoji/teamops.png"
   },
+  "teams": {
+    "aliases": [
+      "teams"
+    ],
+    "file": "emoji/teams.png"
+  },
   "teapot": {
     "aliases": [
       "teapot"
@@ -23487,6 +23578,12 @@
     ],
     "file": "emoji/tmnt.jpg"
   },
+  "to-do-list": {
+    "aliases": [
+      "to-do-list"
+    ],
+    "file": "emoji/to-do-list.png"
+  },
   "toast-2": {
     "aliases": [
       "toast-2"
@@ -23722,6 +23819,7 @@
   },
   "totoro": {
     "aliases": [
+      "hula-hooping",
       "totoro"
     ],
     "file": "emoji/totoro.gif"
