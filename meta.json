@@ -15429,18 +15429,6 @@
     ],
     "file": "emoji/neko-van.png"
   },
-  "neko": {
-    "aliases": [
-      "neko"
-    ],
-    "file": "emoji/neko.jpg"
-  },
-  "nekonap": {
-    "aliases": [
-      "nekonap"
-    ],
-    "file": "emoji/nekonap.jpg"
-  },
   "nelson": {
     "aliases": [
       "ha-ha",
@@ -15911,12 +15899,6 @@
       "nopetopus"
     ],
     "file": "emoji/nopetopus.gif"
-  },
-  "nora": {
-    "aliases": [
-      "nora"
-    ],
-    "file": "emoji/nora.jpg"
   },
   "nose-goes": {
     "aliases": [
@@ -16403,12 +16385,6 @@
     ],
     "file": "emoji/old_timey_parrot.gif"
   },
-  "olive": {
-    "aliases": [
-      "olive"
-    ],
-    "file": "emoji/olive.png"
-  },
   "olive2": {
     "aliases": [
       "olive2"
@@ -16684,12 +16660,6 @@
     ],
     "file": "emoji/oregon.png"
   },
-  "oreo-dag": {
-    "aliases": [
-      "oreo-dag"
-    ],
-    "file": "emoji/oreo-dag.jpg"
-  },
   "oreo": {
     "aliases": [
       "oreo"
@@ -16912,12 +16882,6 @@
     ],
     "file": "emoji/pancakes-2.gif"
   },
-  "pancho-dag": {
-    "aliases": [
-      "pancho-dag"
-    ],
-    "file": "emoji/pancho-dag.png"
-  },
   "panda_big": {
     "aliases": [
       "panda_big"
@@ -16992,12 +16956,6 @@
       "parappa"
     ],
     "file": "emoji/parappa.png"
-  },
-  "park-colin": {
-    "aliases": [
-      "park-colin"
-    ],
-    "file": "emoji/park-colin.png"
   },
   "parrot-deal-with-it": {
     "aliases": [
@@ -17586,12 +17544,6 @@
       "pipe"
     ],
     "file": "emoji/pipe.png"
-  },
-  "piper": {
-    "aliases": [
-      "piper"
-    ],
-    "file": "emoji/piper.jpg"
   },
   "pippi": {
     "aliases": [
@@ -18952,13 +18904,6 @@
     ],
     "file": "emoji/remember-places.gif"
   },
-  "remy": {
-    "aliases": [
-      "cat-remy",
-      "remy"
-    ],
-    "file": "emoji/remy.jpg"
-  },
   "render-unto-caesar": {
     "aliases": [
       "render-unto-caesar"
@@ -19093,12 +19038,6 @@
     ],
     "file": "emoji/rip.png"
   },
-  "ripley-dag": {
-    "aliases": [
-      "ripley-dag"
-    ],
-    "file": "emoji/ripley-dag.png"
-  },
   "ripper": {
     "aliases": [
       "ripper"
@@ -19201,13 +19140,6 @@
     ],
     "file": "emoji/rockstar.jpg"
   },
-  "rocky": {
-    "aliases": [
-      "cat-rocky",
-      "rocky"
-    ],
-    "file": "emoji/rocky.jpg"
-  },
   "rod-roddy": {
     "aliases": [
       "come-on-down",
@@ -19233,12 +19165,6 @@
       "roger"
     ],
     "file": "emoji/roger.jpg"
-  },
-  "roland": {
-    "aliases": [
-      "roland"
-    ],
-    "file": "emoji/roland.png"
   },
   "roll-dice": {
     "aliases": [
@@ -19272,12 +19198,6 @@
       "rollerskate"
     ],
     "file": "emoji/rollerskate.jpg"
-  },
-  "rolling.jpg": {
-    "aliases": [
-      "rolling.jpg"
-    ],
-    "file": "emoji/rolling.jpg"
   },
   "rolly-cat-reverse": {
     "aliases": [
@@ -19403,12 +19323,6 @@
     ],
     "file": "emoji/rube-goldberg-machine-2.jpg"
   },
-  "ruby-dag": {
-    "aliases": [
-      "ruby-dag"
-    ],
-    "file": "emoji/ruby-dag.jpg"
-  },
   "ruby-slippers": {
     "aliases": [
       "ruby-slippers"
@@ -19480,12 +19394,6 @@
       "rustlang"
     ],
     "file": "emoji/rustlang.png"
-  },
-  "rusty": {
-    "aliases": [
-      "rusty"
-    ],
-    "file": "emoji/rusty.jpg"
   },
   "s-train": {
     "aliases": [
@@ -19955,23 +19863,11 @@
     ],
     "file": "emoji/scubakirsten.jpg"
   },
-  "scubakirsten2": {
-    "aliases": [
-      "scubakirsten2"
-    ],
-    "file": "emoji/scubakirsten2.jpg"
-  },
   "scubarescuediver": {
     "aliases": [
       "scubarescuediver"
     ],
     "file": "emoji/scubarescuediver.jpg"
-  },
-  "scully": {
-    "aliases": [
-      "scully"
-    ],
-    "file": "emoji/scully.jpg"
   },
   "scyther": {
     "aliases": [
@@ -20399,13 +20295,6 @@
     ],
     "file": "emoji/shoreleave-billy.png"
   },
-  "shorty": {
-    "aliases": [
-      "cat-shorty",
-      "shorty"
-    ],
-    "file": "emoji/shorty.jpg"
-  },
   "shots-fired": {
     "aliases": [
       "shots-fired"
@@ -20503,12 +20392,6 @@
     ],
     "file": "emoji/sideshow-bob.gif"
   },
-  "sidney-dag": {
-    "aliases": [
-      "sidney-dag"
-    ],
-    "file": "emoji/sidney-dag.jpg"
-  },
   "sierra": {
     "aliases": [
       "sierra"
@@ -20575,12 +20458,6 @@
     ],
     "file": "emoji/simon-garfunkel-sounds-of-silence.jpg"
   },
-  "simone": {
-    "aliases": [
-      "simone"
-    ],
-    "file": "emoji/simone.jpg"
-  },
   "simpsons-donut": {
     "aliases": [
       "simpsons-donut"
@@ -20592,13 +20469,6 @@
       "simpsons-urge-to-kill-rising"
     ],
     "file": "emoji/simpsons-urge-to-kill-rising.gif"
-  },
-  "sinbad": {
-    "aliases": [
-      "cat-sinbad",
-      "sinbad"
-    ],
-    "file": "emoji/sinbad.jpg"
   },
   "singing-frog": {
     "aliases": [
@@ -21318,13 +21188,6 @@
     ],
     "file": "emoji/spidey-sense.png"
   },
-  "spike": {
-    "aliases": [
-      "cat-spike",
-      "spike"
-    ],
-    "file": "emoji/spike.jpg"
-  },
   "spinaltap": {
     "aliases": [
       "spinaltap"
@@ -21687,12 +21550,6 @@
       "stiff-upper-lip"
     ],
     "file": "emoji/stiff-upper-lip.png"
-  },
-  "stipe": {
-    "aliases": [
-      "stipe"
-    ],
-    "file": "emoji/stipe.jpg"
   },
   "stir-the-pot": {
     "aliases": [
@@ -25130,12 +24987,6 @@
     ],
     "file": "emoji/what-we-do-in-life-echoes-in-eternity.jpg"
   },
-  "what-would-nikki-do": {
-    "aliases": [
-      "what-would-nikki-do"
-    ],
-    "file": "emoji/what-would-nikki-do.png"
-  },
   "what-year-is-it": {
     "aliases": [
       "what-year-is-it"
@@ -25419,44 +25270,6 @@
       "winrar"
     ],
     "file": "emoji/winrar.png"
-  },
-  "winry-down": {
-    "aliases": [
-      "winry-down"
-    ],
-    "file": "emoji/winry-down.png"
-  },
-  "winry-headache": {
-    "aliases": [
-      "right-round-winry",
-      "spinry",
-      "winry-headache"
-    ],
-    "file": "emoji/winry-headache.gif"
-  },
-  "winry-left": {
-    "aliases": [
-      "winry-left"
-    ],
-    "file": "emoji/winry-left.png"
-  },
-  "winry-right": {
-    "aliases": [
-      "winry-right"
-    ],
-    "file": "emoji/winry-right.png"
-  },
-  "winry-smile": {
-    "aliases": [
-      "winry-smile"
-    ],
-    "file": "emoji/winry-smile.jpg"
-  },
-  "winry-up": {
-    "aliases": [
-      "winry-up"
-    ],
-    "file": "emoji/winry-up.png"
   },
   "winteriscoming": {
     "aliases": [
@@ -26316,12 +26129,6 @@
       "zissou"
     ],
     "file": "emoji/zissou.jpg"
-  },
-  "zoey": {
-    "aliases": [
-      "zoey"
-    ],
-    "file": "emoji/zoey.jpg"
   },
   "zoidberg": {
     "aliases": [
