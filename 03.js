@@ -1,40 +1,45 @@
-const addDomNode = () => {
+const createEmoji = () => {
   const { innerWidth } = window;
 
   // Fixed vertical position, random horizontal position.
   const left = Math.round(Math.random() * innerWidth);
 
-  const domEmoji = document.createElement('div');
-  domEmoji.setAttribute('data-emoji', null);
-  domEmoji.setAttribute('data-speed', 2 + Math.floor(Math.random() * 19));
-  domEmoji.setAttribute(
-    'style',
-    `position: fixed; top: -32px; left: ${left}px; width: 32px; height: 32px; background: url(${getEmoji()}); background-size: contain; background-position: center center; background-repeat: no-repeat;`
-  );
-  document.body.appendChild(domEmoji);
+  return {
+    speed: 2 + Math.floor(Math.random() * 19),
+    style: {
+      position: 'fixed',
+      top: `32px`,
+      left: `${left}px`,
+      width: '32px',
+      height: '32px',
+      background: `url(${getEmoji()})`,
+      'background-size': 'contain',
+      'background-position': 'center center',
+      'background-repeat': 'no-repeat',
+    },
+    top: -32,
+  };
 };
 
 const moveEmoji = () => {
-  const { innerHeight, innerWidth } = window;
+  const { innerHeight } = window;
 
-  Array.from(document.querySelectorAll('div[data-emoji]')).forEach(domEmoji => {
-    const { top } = domEmoji.getBoundingClientRect();
+  appState.emoji.forEach((emoji, index) => {
+    const { speed, top } = emoji;
     if (top > innerHeight) {
-      domEmoji.remove();
-      addDomNode();
+      appState.emoji.splice(index, 1, createEmoji());
       return;
     }
 
-    const speed = +domEmoji.getAttribute('data-speed') || 1;
-
-    domEmoji.style.top = `${top + speed}px`;
+    emoji.top += speed;
+    emoji.style.top = `${emoji.top}px`;
   });
 };
 
 // Also required externally. No arguments.
 const goEmoji = () => {
-  for (let i = 0; i < 150; i += 1) {
-    addDomNode();
-  }
+  [...Array(150)].forEach(() => {
+    appState.emoji.push(createEmoji());
+  });
   setInterval(moveEmoji, 50);
 };

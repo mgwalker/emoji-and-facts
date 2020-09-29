@@ -1,4 +1,4 @@
-const addDomNode = () => {
+const createEmoji = () => {
   const diameter = Math.floor(Math.random() * 170) + 24;
   const circumference = diameter * Math.PI;
   const degreesPerPixel = 360 / circumference;
@@ -8,38 +8,45 @@ const addDomNode = () => {
   const { innerHeight } = window;
   const top = Math.floor(Math.random() * innerHeight) - diameter / 2;
 
-  const domEmoji = document.createElement('div');
-  domEmoji.setAttribute('data-emoji', null);
-  domEmoji.setAttribute('data-direction', null);
-  domEmoji.setAttribute('data-speed', speed);
-  domEmoji.setAttribute('dom-angle', 0);
-  domEmoji.setAttribute('data-ratio', speed * degreesPerPixel);
-  domEmoji.setAttribute(
-    'style',
-    `position: fixed; border: 4px solid black; border-radius: 100%; top: ${top}px; left: -${diameter}px; width: ${diameter}px; height: ${diameter}px; background: url(${getEmoji()}); background-size: contain; background-position: center center; background-repeat: no-repeat;`
-  );
-  document.body.appendChild(domEmoji);
+  return {
+    angle: 0,
+    left: -diameter,
+    ratio: speed * degreesPerPixel,
+    speed,
+    style: {
+      background: `url(${getEmoji()})`,
+      'background-position': 'center center',
+      'background-repeat': 'no-repeat',
+      'background-size': 'contain',
+      'border-radius': '100%',
+      height: `${diameter}px`,
+      left: `${-diameter}px`,
+      position: 'fixed',
+      top: `${top}px`,
+      width: `${diameter}px`,
+    },
+  };
 };
 
 const moveEmoji = () => {
   const { innerWidth } = window;
 
-  Array.from(document.querySelectorAll('div[data-emoji]')).forEach(domEmoji => {
-    const angle = +domEmoji.getAttribute('data-angle');
-    const ratio = +domEmoji.getAttribute('data-ratio');
-    const speed = +domEmoji.getAttribute('data-speed');
-    const left = +domEmoji.style.left.replace('px', '');
+  appState.emoji.forEach((emoji, index) => {
+    const { left, ratio, speed } = emoji;
 
     if (left > innerWidth) {
-      domEmoji.remove();
-      addDomNode();
+      appState.emoji.splice(index, 1, createEmoji());
       return;
     }
 
-    domEmoji.setAttribute('data-angle', angle + ratio);
+    emoji.angle += ratio;
+    emoji.left += speed;
+    if (index === 0) {
+      console.log(`moving to ${emoji.left}`);
+    }
 
-    domEmoji.style.left = `${left + speed}px`;
-    domEmoji.style.transform = `rotate(${angle + ratio}deg)`;
+    emoji.style.left = `${emoji.left}px`;
+    emoji.style.transform = `rotate(${emoji.angle}deg)`;
   });
 };
 
@@ -55,8 +62,8 @@ const goEmoji = () => {
     color: white;`
   );
 
-  for (let i = 0; i < 50; i += 1) {
-    addDomNode();
-  }
+  [...Array(50)].forEach(() => {
+    appState.emoji.push(createEmoji());
+  });
   setInterval(moveEmoji, 50);
 };
