@@ -45,7 +45,7 @@ const moveEmoji = () => {
     const { direction, left, moves, speed, top } = emoji;
 
     if (left < -32 || left > innerWidth || top < -32 || top > innerHeight) {
-      appState.emoji.splice(index, 1, addDomNode());
+      appState.emoji.splice(index, 1, createEmoji());
       return;
     }
 
@@ -72,7 +72,7 @@ const moveEmoji = () => {
 // Also required externally. No arguments.
 const goEmoji = () => {
   [...Array(50)].forEach(() => {
-    appState.emoji.push(addDomNode());
+    appState.emoji.push(createEmoji());
   });
   setInterval(moveEmoji, 50);
 };
