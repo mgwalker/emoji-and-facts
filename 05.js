@@ -1,6 +1,6 @@
 const frameLoop = () => {
   const emojis = Array.from(document.querySelectorAll('[data-frames]'));
-  emojis.forEach(emoji => {
+  emojis.forEach((emoji) => {
     const imgFrames = +emoji.getAttribute('data-frames');
     const flips = +emoji.getAttribute('data-flip');
 
