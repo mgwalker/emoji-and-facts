@@ -23,6 +23,12 @@
     ],
     "file": "emoji/2020.gif"
   },
+  "2021": {
+    "aliases": [
+      "2021"
+    ],
+    "file": "emoji/2021.png"
+  },
   "3560": {
     "aliases": [
       "3560",
@@ -703,6 +709,12 @@
       "agentcooper"
     ],
     "file": "emoji/agentcooper.jpg"
+  },
+  "agile-santa": {
+    "aliases": [
+      "agile-santa"
+    ],
+    "file": "emoji/agile-santa.png"
   },
   "agile": {
     "aliases": [
@@ -1786,6 +1798,12 @@
       "army"
     ],
     "file": "emoji/army.png"
+  },
+  "artax": {
+    "aliases": [
+      "artax"
+    ],
+    "file": "emoji/artax.jpg"
   },
   "arthur-dance": {
     "aliases": [
@@ -4155,6 +4173,12 @@
       "bugsbunny"
     ],
     "file": "emoji/bugsbunny.png"
+  },
+  "buh-bye": {
+    "aliases": [
+      "buh-bye"
+    ],
+    "file": "emoji/buh-bye.jpg"
   },
   "bulbasaur": {
     "aliases": [
@@ -7608,6 +7632,12 @@
     ],
     "file": "emoji/disco-spin.gif"
   },
+  "disco-stu": {
+    "aliases": [
+      "disco-stu"
+    ],
+    "file": "emoji/disco-stu.png"
+  },
   "disco": {
     "aliases": [
       "disco"
@@ -7839,6 +7869,12 @@
       "doge"
     ],
     "file": "emoji/doge.png"
+  },
+  "dogecoin": {
+    "aliases": [
+      "dogecoin"
+    ],
+    "file": "emoji/dogecoin.png"
   },
   "doh": {
     "aliases": [
@@ -8208,6 +8244,12 @@
       "dreidel"
     ],
     "file": "emoji/dreidel.png"
+  },
+  "drfauci": {
+    "aliases": [
+      "drfauci"
+    ],
+    "file": "emoji/drfauci.png"
   },
   "drill": {
     "aliases": [
@@ -9237,6 +9279,12 @@
     ],
     "file": "emoji/fashionmoth.png"
   },
+  "fauci": {
+    "aliases": [
+      "fauci"
+    ],
+    "file": "emoji/fauci.png"
+  },
   "favro": {
     "aliases": [
       "favro"
@@ -9962,6 +10010,12 @@
     ],
     "file": "emoji/foundingfather.png"
   },
+  "fox's_u-bet_chocolate_syrup": {
+    "aliases": [
+      "fox's_u-bet_chocolate_syrup"
+    ],
+    "file": "emoji/fox's_u-bet_chocolate_syrup.png"
+  },
   "fox-wave": {
     "aliases": [
       "fox-wave"
@@ -9994,6 +10048,12 @@
       "fran"
     ],
     "file": "emoji/fran.jpg"
+  },
+  "frank-the-reindeer": {
+    "aliases": [
+      "frank-the-reindeer"
+    ],
+    "file": "emoji/frank-the-reindeer.png"
   },
   "frankenstein": {
     "aliases": [
@@ -11131,6 +11191,12 @@
       "govcloud"
     ],
     "file": "emoji/govcloud.png"
+  },
+  "government-tchotchke": {
+    "aliases": [
+      "government-tchotchke"
+    ],
+    "file": "emoji/government-tchotchke.jpg"
   },
   "government": {
     "aliases": [
@@ -14374,6 +14440,12 @@
     ],
     "file": "emoji/juneteenth-star.png"
   },
+  "jupiter": {
+    "aliases": [
+      "jupiter"
+    ],
+    "file": "emoji/jupiter.png"
+  },
   "jupyter": {
     "aliases": [
       "jupyter"
@@ -15029,6 +15101,12 @@
       "kudos"
     ],
     "file": "emoji/kudos.jpg"
+  },
+  "kwanzaa": {
+    "aliases": [
+      "kwanzaa"
+    ],
+    "file": "emoji/kwanzaa.png"
   },
   "l-train": {
     "aliases": [
@@ -16479,6 +16557,12 @@
       "melting-clock"
     ],
     "file": "emoji/melting-clock.png"
+  },
+  "melty-the-snow-coffee": {
+    "aliases": [
+      "melty-the-snow-coffee"
+    ],
+    "file": "emoji/melty-the-snow-coffee.png"
   },
   "memento-mori": {
     "aliases": [
@@ -19968,6 +20052,12 @@
     ],
     "file": "emoji/perl.png"
   },
+  "persimmon": {
+    "aliases": [
+      "persimmon"
+    ],
+    "file": "emoji/persimmon.png"
+  },
   "personal-funds": {
     "aliases": [
       "personal-funds"
@@ -20510,6 +20600,12 @@
       "pokeball"
     ],
     "file": "emoji/pokeball.png"
+  },
+  "pokemon-lickitung": {
+    "aliases": [
+      "pokemon-lickitung"
+    ],
+    "file": "emoji/pokemon-lickitung.png"
   },
   "pokemon-pikachu-dancing": {
     "aliases": [
@@ -22124,6 +22220,12 @@
     ],
     "file": "emoji/rubiks-cube.png"
   },
+  "rubocop": {
+    "aliases": [
+      "rubocop"
+    ],
+    "file": "emoji/rubocop.png"
+  },
   "ruby-slippers": {
     "aliases": [
       "ruby-slippers"
@@ -22803,6 +22905,12 @@
     ],
     "file": "emoji/secret-hero.png"
   },
+  "secureath-chainsaw": {
+    "aliases": [
+      "secureath-chainsaw"
+    ],
+    "file": "emoji/secureath-chainsaw.png"
+  },
   "securesloth": {
     "aliases": [
       "securesloth"
@@ -23191,6 +23299,12 @@
       "shit-funnel"
     ],
     "file": "emoji/shit-funnel.png"
+  },
+  "shit-storm": {
+    "aliases": [
+      "shit-storm"
+    ],
+    "file": "emoji/shit-storm.png"
   },
   "shocked-pikachu": {
     "aliases": [
@@ -23989,6 +24103,12 @@
       "sophia"
     ],
     "file": "emoji/sophia.jpg"
+  },
+  "sorn-dash": {
+    "aliases": [
+      "sorn-dash"
+    ],
+    "file": "emoji/sorn-dash.png"
   },
   "sorry-2": {
     "aliases": [
@@ -24801,6 +24921,13 @@
       "strgtedge"
     ],
     "file": "emoji/strgtedge.jpg"
+  },
+  "strong-coffee": {
+    "aliases": [
+      "strong-coffee",
+      "strong-hot-chocolate"
+    ],
+    "file": "emoji/strong-coffee.png"
   },
   "strongbad": {
     "aliases": [
@@ -27504,6 +27631,18 @@
     ],
     "file": "emoji/uno-card.png"
   },
+  "uno-reverse": {
+    "aliases": [
+      "uno-reverse"
+    ],
+    "file": "emoji/uno-reverse.png"
+  },
+  "unocard": {
+    "aliases": [
+      "unocard"
+    ],
+    "file": "emoji/unocard.png"
+  },
   "unpopular-opinion-puffin": {
     "aliases": [
       "unpopular-opinion-puffin"
@@ -27948,6 +28087,12 @@
     ],
     "file": "emoji/voltron.png"
   },
+  "voltron_talent": {
+    "aliases": [
+      "voltron_talent"
+    ],
+    "file": "emoji/voltron_talent.jpg"
+  },
   "volvo-wagon-needs-wash": {
     "aliases": [
       "volvo-wagon-needs-wash"
@@ -28385,6 +28530,13 @@
       "welcome-back"
     ],
     "file": "emoji/welcome-back.png"
+  },
+  "welcome-back2": {
+    "aliases": [
+      "mase",
+      "welcome-back2"
+    ],
+    "file": "emoji/welcome-back2.jpg"
   },
   "welcome": {
     "aliases": [
@@ -29654,6 +29806,12 @@
       "youths"
     ],
     "file": "emoji/youths.png"
+  },
+  "youtube": {
+    "aliases": [
+      "youtube"
+    ],
+    "file": "emoji/youtube.png"
   },
   "youwhat": {
     "aliases": [
