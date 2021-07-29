@@ -5,11 +5,11 @@
 
 (async () => {
   const token = Array.from($('script[type="text/javascript"]:not([src])'))
-    .filter(n => n.firstChild.textContent.indexOf('api_token') >= 0)[0]
+    .filter((n) => n.firstChild.textContent.indexOf('api_token') >= 0)[0]
     .firstChild.textContent.match(/"api_token":"([^"]+)"/)[1];
 
-  const sleep = async ms =>
-    new Promise(resolve => {
+  const sleep = async (ms) =>
+    new Promise((resolve) => {
       setTimeout(() => resolve(), ms);
     });
 
@@ -20,7 +20,7 @@
 
     const response = await fetch('/api/emoji.adminList', {
       body: form,
-      method: 'post'
+      method: 'post',
     });
 
     return response.json();
