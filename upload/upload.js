@@ -6,20 +6,31 @@ const request = require('request');
 const team = process.env.SLACK_TEAM;
 const token = process.env.SLACK_TOKEN;
 
-const cookie =
-  'd-s=1625786867; b=.d9jou05996csdhogsdzp9w0mk; ssb_instance_id=ac2611a9-cc3d-527b-b951-ce89fda76809; OptanonConsent=isIABGlobal=false&datestamp=Thu+Jul+08+2021+18%3A27%3A46+GMT-0500+(Central+Daylight+Time)&version=6.12.0&hosts=&consentId=57390766-b284-4cf7-8ec1-08c0eff1b56b&interactionCount=1&landingPath=NotLandingPage&groups=C0004%3A0%2CC0002%3A1%2CC0003%3A1%2CC0001%3A1&AwaitingReconsent=false; ec=enQtMjI1MjAxMzY2MzkzOS1hNGQxNjAyNmM4NGNmYzNkYmVlMzkxOTI4Y2M3ZWZhZGFlODhiZGUyZjg2YzUxODYwNzNjYTgwODY3MTU5MDZl; d=GvHoTHEoY0IJW4YcAtpw5EL6DUo5nuhzU2GFwADJi5HT0zUwq49BRnlH5fFTS4HzuSFJxLVXnhHffiYM4ahfXO8HHoyv%2BfEAZSb6Ta9zIVH780JHRlvS5RubyCjmDQEuqyMjGVLpSMYT0F2FJfuYomWj7AXrXlAI7CJORBFkrhn7KNQPdub8AX1h4w%3D%3D; lc=1625786867; shown_download_ssb_modal=1; x=d9jou05996csdhogsdzp9w0mk.1625786855';
+const cookie = '';
 
 const sleep = async (ms) =>
   new Promise((resolve) => {
     setTimeout(() => resolve(), ms);
   });
 
-// const emoji = { zorro: require('../meta')['zorro'] };
 const emoji = require('../meta');
+const skip = require('./skip.json');
+
+const nameCleanupRegex = /\.[a-z]+$/i;
+Object.entries(emoji).forEach(([name, meta]) => {
+  const clean = name.replace(nameCleanupRegex, '');
+  delete emoji[name];
+
+  if (!skip.includes(clean)) {
+    emoji[clean] = meta;
+
+    meta.aliases = meta.aliases.map((alias) =>
+      alias.replace(nameCleanupRegex, '')
+    );
+  }
+});
 
 const getEmoji = async () => {
-  // return [{ name: 'ohno' }];
-
   const bodyData = {
     token,
   };
@@ -114,8 +125,17 @@ const putEmoji = async (name, file) =>
         },
       },
       (err, _, body) => {
-        console.log(body);
-        console.log('done');
+        const b = JSON.parse(body);
+        if (b && b.error) {
+          switch (b.error) {
+            case 'error_name_taken':
+            case 'error_name_taken_i18n':
+              console.log('add to skip');
+              skip.push(name);
+              break;
+          }
+          console.log(b);
+        }
         resolve();
       }
     );
@@ -130,13 +150,19 @@ getEmoji()
     console.log(`${Object.entries(emoji).length} new emoji`);
   })
   .then(async () => {
-    await Object.entries(emoji).reduce(
-      (prev, [name, meta]) =>
+    const entries = Object.entries(emoji);
+    const count = entries.length;
+    await entries.reduce(
+      (prev, [name, meta], i) =>
         prev.then(async () => {
-          console.log(`putting ${name} - ${meta.file}`);
+          console.log(`[${i} of ${count}] putting ${name} - ${meta.file}`);
           await putEmoji(name, meta.file);
           await sleep(2500);
         }),
       Promise.resolve()
     );
+  })
+  .then(async () => {
+    console.log('write new skip file');
+    fs.writeFileSync('skip.json', JSON.stringify(skip, null, 2));
   });
