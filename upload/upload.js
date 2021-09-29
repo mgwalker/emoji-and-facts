@@ -6,7 +6,7 @@ const request = require('request');
 const team = process.env.SLACK_TEAM;
 const token = process.env.SLACK_TOKEN;
 
-const cookie = '';
+const cookie = require('./cookie');
 
 const sleep = async (ms) =>
   new Promise((resolve) => {
