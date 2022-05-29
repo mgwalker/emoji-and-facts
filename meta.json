@@ -16018,12 +16018,6 @@
     ],
     "file": "emoji/joan-jett.png"
   },
-  "joe-castle": {
-    "aliases": [
-      "joe-castle"
-    ],
-    "file": "emoji/joe-castle.jpg"
-  },
   "joffrey": {
     "aliases": [
       "joffrey"
@@ -21310,6 +21304,12 @@
       "okra-happy"
     ],
     "file": "emoji/okra-happy.png"
+  },
+  "okra-thumbs-up": {
+    "aliases": [
+      "okra-thumbs-up"
+    ],
+    "file": "emoji/okra-thumbs-up.png"
   },
   "okra": {
     "aliases": [

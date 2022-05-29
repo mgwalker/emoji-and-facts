@@ -3,7 +3,7 @@ const https = require('https');
 const path = require('path');
 const readline = require('readline').createInterface({
   input: process.stdin,
-  output: process.stdout
+  output: process.stdout,
 });
 
 // Works best in iTerm 2.9 or higher, but whatever!
@@ -27,20 +27,20 @@ const draw = (() => {
     }
   }
 
-  return async url =>
-    new Promise(resolve => {
+  return async (url) =>
+    new Promise((resolve) => {
       const esc = '\u001B]1337;File=inline=1:';
       const bel = `\u0007`;
 
       let img = '';
-      https.get(url, res => {
+      https.get(url, (res) => {
         res.setEncoding('base64');
 
-        res.on('data', d => {
+        res.on('data', (d) => {
           img += d;
         });
 
-        res.on('end', a => {
+        res.on('end', (a) => {
           console.log(`${esc}${img}${bel}`);
           resolve();
         });
@@ -54,33 +54,33 @@ const ignore = require('./ignore.json');
 // Get the complete list of emoji, as presented
 const all = require('./emoji.json')
   // Add the eventual filename as a property
-  .map(e => ({ ...e, filename: `${e.name}${path.extname(e.url)}` }))
+  .map((e) => ({ ...e, filename: `${e.name}${path.extname(e.url)}` }))
   // Remove aliases
-  .filter(e => e.is_alias === 0);
+  .filter((e) => e.is_alias === 0);
 
 const newEmoji = all
   // Remove the emoji that we already know we don't want to publish
-  .filter(e => !ignore.includes(e.filename))
+  .filter((e) => !ignore.includes(e.filename))
   // Remove the emoji that are already part of the repo
-  .filter(e => !fs.existsSync(`../emoji/${e.filename}`));
+  .filter((e) => !fs.existsSync(`../emoji/${e.filename}`));
 
 // Prompt the user about whether to keep a particular emoji
-const shouldKeep = async emoji =>
-  new Promise(async resolve => {
+const shouldKeep = async (emoji) =>
+  new Promise(async (resolve) => {
     console.log(`Here's a new emoji called "${emoji.name}":`);
     await draw(emoji.url);
 
-    readline.question('Do you want to keep this one? [y/N] ', yn => {
+    readline.question('Do you want to keep this one? [y/N] ', (yn) => {
       resolve(/^y/i.test(yn));
     });
   });
 
 // Download an emoji
-const download = async emoji =>
-  new Promise(resolve => {
+const download = async (emoji) =>
+  new Promise((resolve) => {
     const file = fs.createWriteStream(`../emoji/${emoji.filename}`);
     https
-      .get(emoji.url, function(res) {
+      .get(emoji.url, function (res) {
         res.pipe(file);
         file.on('finish', () => {
           file.close();
@@ -88,7 +88,7 @@ const download = async emoji =>
           resolve();
         });
       })
-      .on('error', function(e) {
+      .on('error', function (e) {
         file.close();
         fs.unlink(`../emoji/${emoji.filename}`);
         console.log('download failed');
@@ -128,11 +128,15 @@ const promptAboutAllTheEmoji = async () => {
 // Build the flat list of emoji files, based on what's currently on the
 // filesystem. This list is used to power the simple landing page.
 const buildEmojiList = async () =>
-  new Promise(resolve => {
+  new Promise((resolve) => {
     fs.readdir('../emoji', (err, files) => {
       fs.writeFileSync(
         '../emoji.json',
-        JSON.stringify(files.map(f => `emoji/${f}`), null, '  ')
+        JSON.stringify(
+          files.map((f) => `emoji/${f}`),
+          null,
+          '  '
+        )
       );
       resolve();
     });
@@ -141,19 +145,19 @@ const buildEmojiList = async () =>
 // Build a bit more metadata. This one is used to build the grid page
 // and needs to include aliases and everything for tooltips.
 const buildEmojiMetadata = async () =>
-  new Promise(resolve => {
+  new Promise((resolve) => {
     fs.readdir('../emoji', (_, files) => {
       const meta = files.reduce((o, filename) => {
         // We found an emoji file that's not in the metadata list.
         // So we'll just make stuff up, based on the filename.
-        const emoji = all.find(e => e.filename === filename);
+        const emoji = all.find((e) => e.filename === filename);
         if (!emoji) {
           return {
             ...o,
             [path.basename(filename)]: {
               aliases: [path.basename(filename)],
-              file: `emoji/${filename}`
-            }
+              file: `emoji/${filename}`,
+            },
           };
         }
 
@@ -167,8 +171,8 @@ const buildEmojiMetadata = async () =>
             // aliases list will always include the base emoji, whether it
             // has other aliases or not.
             aliases: emoji.synonyms.length ? emoji.synonyms : [emoji.name],
-            file: `emoji/${filename}`
-          }
+            file: `emoji/${filename}`,
+          },
         };
       }, {});
       fs.writeFileSync('../meta.json', JSON.stringify(meta, null, 2));
@@ -184,7 +188,7 @@ promptAboutAllTheEmoji()
     await buildEmojiList();
     await buildEmojiMetadata();
   })
-  .catch(e => {
+  .catch((e) => {
     console.log(e);
     readline.close();
   });
