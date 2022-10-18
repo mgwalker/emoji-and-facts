@@ -41,9 +41,6 @@ const moveEmoji = () => {
 
     emoji.angle += ratio;
     emoji.left += speed;
-    if (index === 0) {
-      console.log(`moving to ${emoji.left}`);
-    }
 
     emoji.style.left = `${emoji.left}px`;
     emoji.style.transform = `rotate(${emoji.angle}deg)`;
