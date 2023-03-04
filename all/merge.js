@@ -54,9 +54,7 @@ const ignore = require('./ignore.json');
 // Get the complete list of emoji, as presented
 const all = require('./emoji.json')
   // Add the eventual filename as a property
-  .map((e) => ({ ...e, filename: `${e.name}${path.extname(e.url)}` }))
-  // Remove aliases
-  .filter((e) => e.is_alias === 0);
+  .map((e) => ({ ...e, filename: `${e.name}${path.extname(e.url)}` }));
 
 const newEmoji = all
   // Remove the emoji that we already know we don't want to publish
@@ -170,7 +168,7 @@ const buildEmojiMetadata = async () =>
             // bizarrely inconsistent, so we'll change the behavior: our
             // aliases list will always include the base emoji, whether it
             // has other aliases or not.
-            aliases: emoji.synonyms.length ? emoji.synonyms : [emoji.name],
+            aliases: [emoji.name],
             file: `emoji/${filename}`,
           },
         };

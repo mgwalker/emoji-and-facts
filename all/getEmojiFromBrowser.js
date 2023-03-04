@@ -1,60 +1,51 @@
 // Open emoji page in Slack, then run this in the dev console to get a JSON
-// document of all the emoji. It may take a few seconds. Save it in the
+// document of all the emoji. It may take a while. Save it in the
 // same directory as this script, as emoji.json. Then you can run the merge
 // script to merge in the new emoji. Yay!
-
 (async () => {
-  const token = Array.from($('script[type="text/javascript"]:not([src])'))
-    .filter((n) => n.firstChild.textContent.indexOf('api_token') >= 0)[0]
-    .firstChild.textContent.match(/"api_token":"([^"]+)"/)[1];
-
   const sleep = async (ms) =>
     new Promise((resolve) => {
       setTimeout(() => resolve(), ms);
     });
 
-  const getPage = async (page = 1) => {
-    const form = new FormData();
-    form.append('token', token);
-    form.append('page', page);
-
-    const response = await fetch('/api/emoji.adminList', {
-      body: form,
-      method: 'post',
-    });
-
-    return response.json();
-  };
-
   const blackout = document.createElement('div');
   blackout.setAttribute(
     'style',
-    'position: fixed; top: 0; left: 0; height: 100vh; width: 100vw; background-color: rgba(0, 0, 0, 0.3);'
+    'position: fixed; top: 0; left: 0; height: 100vh; width: 100vw; background-color: rgba(0, 0, 0, 0.3); z-index: 5000;'
   );
   document.body.appendChild(blackout);
 
   const banner = document.createElement('div');
   banner.setAttribute(
     'style',
-    'position: fixed; top: 45vh; left: 30vw; width: 40vw; background: white; text-align: center; padding: 10vh;'
+    'position: fixed; top: 45vh; left: 30vw; width: 40vw; background: white; text-align: center; padding: 10vh; z-index: 5001;'
   );
   document.body.appendChild(banner);
 
-  banner.innerText = 'Getting page 1...';
-  let page = await getPage();
-  const emoji = page.emoji;
-  while (page.paging.pages !== page.paging.page) {
-    await sleep(1.5e3);
-    banner.innerText = `Getting page ${page.paging.page + 1} of ${
-      page.paging.pages
-    }...`;
-    page = await getPage(page.paging.page + 1);
-    emoji.push(...page.emoji);
-    // need to map emoji to fix URL; hex codes get their
-    // percent signs escaped too. E.g.,
-    // https://emoji.com/%2Bhi.jpeg
-    // becomes
-    // https://emoji.com/%252Bhi.jpeg
+  banner.innerText = 'Getting emoji... hang tight';
+
+  document.querySelector('button[aria-label="Emoji"]').click();
+  await sleep(1_000);
+
+  const container = document.querySelector('#emoji-picker-list');
+  container.scrollTo(0, 7_000);
+  await sleep(3_000);
+  let lastTop = -1;
+
+  const emojis = new Map();
+
+  while (container.scrollTop != lastTop) {
+    Array.from(document.querySelectorAll('#emoji-picker-list img.c-emoji'))
+      .filter((node) => !/standard-emoji/.test(node.src))
+      .forEach((node) =>
+        emojis.set(node.src, node.getAttribute('data-stringify-emoji'))
+      );
+
+    banner.innerText = `Found ${emojis.size} custom emoji...`;
+
+    lastTop = container.scrollTop;
+    container.scrollBy(0, 64);
+    await sleep(500);
   }
 
   banner.remove();
@@ -64,8 +55,11 @@
   anchor.setAttribute('download', 'emoji.json');
   anchor.setAttribute(
     'href',
-    `data:application/json,${JSON.stringify(emoji, null, 2)}`
+    `data:application/json,${JSON.stringify(
+      Array.from(emojis).map(([key, value]) => ({ [key]: value }))
+    )}`
   );
+
   document.body.appendChild(anchor);
   await sleep(10);
   anchor.click();
