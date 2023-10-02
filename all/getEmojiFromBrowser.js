@@ -56,7 +56,17 @@
   anchor.setAttribute(
     'href',
     `data:application/json,${JSON.stringify(
-      Array.from(emojis).map(([key, value]) => ({ [key]: value }))
+      Array.from(emojis)
+        .map(([key, value]) => ({ name: value, url: key }))
+        .sort(({ name: a }, { name: b }) => {
+          if (a > b) {
+            return 1;
+          }
+          if (a < b) {
+            return -1;
+          }
+          return 0;
+        })
     )}`
   );
 

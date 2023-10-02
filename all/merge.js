@@ -117,6 +117,7 @@ const promptAboutAllTheEmoji = async () => {
     } else {
       // Otherwise push it to the ignore pile
       ignore.push(emoji.filename);
+      fs.writeFileSync('ignore.json', JSON.stringify(ignore, null, 2));
     }
 
     index += 1;
