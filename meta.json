@@ -749,6 +749,12 @@
     ],
     "file": "emoji/actual-taco.png"
   },
+  "ada-lovelace": {
+    "aliases": [
+      "ada-lovelace"
+    ],
+    "file": "emoji/ada-lovelace.png"
+  },
   "adama-actual": {
     "aliases": [
       "adama-actual"
@@ -9647,9 +9653,9 @@
     ],
     "file": "emoji/dolly.jpg"
   },
-  "dolores.jpg": {
+  "dolores": {
     "aliases": [
-      "dolores.jpg"
+      "dolores"
     ],
     "file": "emoji/dolores.jpg"
   },
@@ -11362,6 +11368,12 @@
       "fat-bear-otis"
     ],
     "file": "emoji/fat-bear-otis.png"
+  },
+  "fat-leonard": {
+    "aliases": [
+      "fat-leonard"
+    ],
+    "file": "emoji/fat-leonard.jpg"
   },
   "fat-penguin": {
     "aliases": [
@@ -13672,6 +13684,12 @@
       "google-script"
     ],
     "file": "emoji/google-script.png"
+  },
+  "google-sheets-crying-sunglasses": {
+    "aliases": [
+      "google-sheets-crying-sunglasses"
+    ],
+    "file": "emoji/google-sheets-crying-sunglasses.png"
   },
   "google-sheets": {
     "aliases": [
@@ -17573,15 +17591,15 @@
     ],
     "file": "emoji/jello.gif"
   },
-  "jelly": {
+  "jelly.jpg": {
     "aliases": [
-      "jelly"
+      "jelly.jpg"
     ],
     "file": "emoji/jelly.jpg"
   },
-  "jellyfish.jpg": {
+  "jellyfish": {
     "aliases": [
-      "jellyfish.jpg"
+      "jellyfish"
     ],
     "file": "emoji/jellyfish.jpg"
   },
@@ -18395,9 +18413,9 @@
     ],
     "file": "emoji/keyboard-cat.gif"
   },
-  "keyrock.png": {
+  "keyrock": {
     "aliases": [
-      "keyrock.png"
+      "keyrock"
     ],
     "file": "emoji/keyrock.png"
   },
@@ -21491,9 +21509,9 @@
     ],
     "file": "emoji/mr_bigglesworth.png"
   },
-  "mrs-landingham": {
+  "mrs-landingham.jpg": {
     "aliases": [
-      "mrs-landingham"
+      "mrs-landingham.jpg"
     ],
     "file": "emoji/mrs-landingham.jpg"
   },
@@ -26927,9 +26945,9 @@
     ],
     "file": "emoji/quebec.png"
   },
-  "queen-gertrude.png": {
+  "queen-gertrude": {
     "aliases": [
-      "queen-gertrude.png"
+      "queen-gertrude"
     ],
     "file": "emoji/queen-gertrude.png"
   },
@@ -27905,9 +27923,9 @@
     ],
     "file": "emoji/rofl-707.png"
   },
-  "rofl.gif": {
+  "rofl": {
     "aliases": [
-      "rofl.gif"
+      "rofl"
     ],
     "file": "emoji/rofl.gif"
   },
@@ -27971,9 +27989,9 @@
     ],
     "file": "emoji/rollerskate.jpg"
   },
-  "rolling-on-the-floor-laughing": {
+  "rolling-on-the-floor-laughing.gif": {
     "aliases": [
-      "rolling-on-the-floor-laughing"
+      "rolling-on-the-floor-laughing.gif"
     ],
     "file": "emoji/rolling-on-the-floor-laughing.gif"
   },
@@ -29422,6 +29440,12 @@
       "sheeeeeeeeeeeeit"
     ],
     "file": "emoji/sheeeeeeeeeeeeit.png"
+  },
+  "sheets-coolsob": {
+    "aliases": [
+      "sheets-coolsob"
+    ],
+    "file": "emoji/sheets-coolsob.png"
   },
   "sherlock": {
     "aliases": [
@@ -32471,9 +32495,9 @@
     ],
     "file": "emoji/technologyfail.gif"
   },
-  "ted-talk.png": {
+  "ted-talk": {
     "aliases": [
-      "ted-talk.png"
+      "ted-talk"
     ],
     "file": "emoji/ted-talk.png"
   },
@@ -32939,9 +32963,9 @@
     ],
     "file": "emoji/the-island-alameda.png"
   },
-  "the-lady-doth-protest-too-much-methinks": {
+  "the-lady-doth-protest-too-much-methinks.png": {
     "aliases": [
-      "the-lady-doth-protest-too-much-methinks"
+      "the-lady-doth-protest-too-much-methinks.png"
     ],
     "file": "emoji/the-lady-doth-protest-too-much-methinks.png"
   },
@@ -33401,9 +33425,9 @@
     ],
     "file": "emoji/thor.png"
   },
-  "thought-leadership": {
+  "thought-leadership.png": {
     "aliases": [
-      "thought-leadership"
+      "thought-leadership.png"
     ],
     "file": "emoji/thought-leadership.png"
   },
@@ -33587,9 +33611,9 @@
     ],
     "file": "emoji/tiktok.png"
   },
-  "til.png": {
+  "til": {
     "aliases": [
-      "til.png"
+      "til"
     ],
     "file": "emoji/til.png"
   },
@@ -33989,9 +34013,9 @@
     ],
     "file": "emoji/tock-is-down.png"
   },
-  "today-i-learned": {
+  "today-i-learned.png": {
     "aliases": [
-      "today-i-learned"
+      "today-i-learned.png"
     ],
     "file": "emoji/today-i-learned.png"
   },
@@ -35141,9 +35165,9 @@
     ],
     "file": "emoji/unfortunately-no.gif"
   },
-  "unfrozen-caveman-lawyer": {
+  "unfrozen-caveman-lawyer.png": {
     "aliases": [
-      "unfrozen-caveman-lawyer"
+      "unfrozen-caveman-lawyer.png"
     ],
     "file": "emoji/unfrozen-caveman-lawyer.png"
   },
