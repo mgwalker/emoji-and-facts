@@ -45,7 +45,7 @@
 
     lastTop = container.scrollTop;
     container.scrollBy(0, 64);
-    await sleep(500);
+    await sleep(1000);
   }
 
   banner.remove();
