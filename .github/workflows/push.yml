@@ -28,6 +28,9 @@ jobs:
 
       - name: build guides
         working-directory: 18f-guides
+        env:
+          BASE_URL: /guides/
+
         run: |
           npm ci
           npm run build
