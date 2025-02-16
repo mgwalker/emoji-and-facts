@@ -1,0 +1,46 @@
+name: content modified
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  rebuild:
+    name: deploy the site
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 22
+
+      - uses: actions/checkout@v3
+        with:
+          repository: mgwalker/18f-guides
+          path: 18f-guides
+
+      - name: build guides
+        working-directory: 18f-guides
+        run: |
+          npm ci
+          npm run build
+
+      - name: cleanup
+        run: |
+          mv 18f-guides/_site ./guides
+          rm -rf 18f-guides
+
+      - name: upload artifacts
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: .
+
+      - name: deploy
+        uses: actions/deploy-pages@v1
