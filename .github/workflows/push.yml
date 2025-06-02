@@ -21,26 +21,6 @@ jobs:
         with:
           node-version: 22
 
-      - uses: actions/checkout@v3
-        with:
-          repository: mgwalker/18f-guides
-          ref: mirror
-          path: 18f-guides
-
-      - name: build guides
-        working-directory: 18f-guides
-        env:
-          BASEURL: /guides/
-
-        run: |
-          npm ci
-          npm run build
-
-      - name: cleanup
-        run: |
-          mv 18f-guides/_site ./guides
-          rm -rf 18f-guides
-
       - name: upload artifacts
         uses: actions/upload-pages-artifact@v3
         with:
