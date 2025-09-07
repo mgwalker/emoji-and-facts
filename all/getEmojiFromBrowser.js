@@ -44,8 +44,8 @@
     banner.innerText = `Found ${emojis.size} custom emoji...`;
 
     lastTop = container.scrollTop;
-    container.scrollBy(0, 128);
-    await sleep(1000);
+    container.scrollBy(0, 256);
+    await sleep(200);
 
     if (container.scrollTop === lastTop) {
       container.scrollBy(0, 128);
