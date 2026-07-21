@@ -1,5 +1,5 @@
 import EmojiBase from './EmojiBase.js';
-import { getEmoji, oneOrTheOther } from './utils.js';
+import { getEmoji } from './utils.js';
 
 const TAG = 'wheelie-emoji-go-brrrr';
 
