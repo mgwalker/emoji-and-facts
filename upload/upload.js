@@ -44,7 +44,7 @@ const request = require('request');
       emoji[clean] = meta;
 
       meta.aliases = meta.aliases.map((alias) =>
-        alias.replace(nameCleanupRegex, '')
+        alias.replace(nameCleanupRegex, ''),
       );
     }
   });
@@ -76,7 +76,7 @@ const request = require('request');
             res.on('end', () => {
               pageResolve(JSON.parse(out));
             });
-          }
+          },
         );
 
         req.write(body);
@@ -118,7 +118,7 @@ const request = require('request');
           res.on('end', () => {
             resolve();
           });
-        }
+        },
       );
 
       req.write(body);
@@ -144,6 +144,7 @@ const request = require('request');
           },
         },
         (err, _, body) => {
+          console.log(err);
           const b = JSON.parse(body);
           if (b && b.error) {
             switch (b.error) {
@@ -151,12 +152,13 @@ const request = require('request');
               case 'error_name_taken_i18n':
                 console.log('add to skip');
                 skip.push(name);
+                fs.writeFileSync('skip.json', JSON.stringify(skip, null, 2));
                 break;
             }
             console.log(b);
           }
           resolve();
-        }
+        },
       );
     });
 
@@ -176,13 +178,12 @@ const request = require('request');
           prev.then(async () => {
             console.log(`[${i} of ${count}] putting ${name} - ${meta.file}`);
             await putEmoji(name, meta.file);
-            await sleep(2500);
+            await sleep(4000);
           }),
-        Promise.resolve()
+        Promise.resolve(),
       );
     })
     .then(async () => {
-      console.log('write new skip file');
-      fs.writeFileSync('skip.json', JSON.stringify(skip, null, 2));
+      console.log('all done, yay!');
     });
 })();
