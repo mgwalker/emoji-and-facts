@@ -1,9 +1,6 @@
 const facts = fetch(
-  'https://api.github.com/repos/18F/18f-bot-facts/contents/giraffes.json'
-)
-  .then((response) => response.json())
-  .then((ghr) => JSON.parse(atob(ghr.content.replace('\\n', ''))));
-
+  'https://raw.githubusercontent.com/team18f/facts/refs/heads/main/giraffes.json',
+).then((response) => response.json());
 let singleton = null;
 
 export default class GiraffeFact extends HTMLElement {
