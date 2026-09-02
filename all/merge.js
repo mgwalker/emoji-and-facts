@@ -8,6 +8,10 @@ const readline = require('readline').createInterface({
 
 // Works best in iTerm 2.9 or higher, but whatever!
 
+throw new Error(
+  'The buildEmojiList and buildEmojiMetadata methods needs to be fixed before this will work again.\n\n',
+);
+
 const draw = (() => {
   const fallback = async () => {
     console.log(`(Can't draw emoji - need iTerm 2.9 or higher!)`);
